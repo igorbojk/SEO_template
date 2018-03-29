@@ -27,8 +27,11 @@ html(lang="ru")
         link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic', rel='stylesheet')
         link(href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;subset=cyrillic" rel="stylesheet")
 
+
         link(rel="stylesheet" href="css/bootstrap.min.css")
         link(rel="stylesheet" href="css/libs.min.css")
+        link(rel="stylesheet" href="css/ekko-lightbox.css")
+
 
     body
         .container
@@ -192,17 +195,45 @@ html(lang="ru")
                                 .info-container
                                     .date 28 марта 2017
                                     h3.title Встреча с Сергеем Тигипко
-                                    .devider
+                                    .devider.small
                                     .description Описание мероприятия
                 .text-center
                     button.btn.btn-primary(type='button') ПОДРОБНЕЕ О Жизни Клуба
 
+        section.club-house
+            #carouselClubHouse.carousel.slide.carousel-fade(data-ride="carousel")
+                .carousel-inner
+                    .carousel-item.active
+                        a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
+                            img(src="assets/icons/expand.svg")
+                        img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
+                    .carousel-item
+                        a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
+                            img(src="assets/icons/expand.svg")
+                        img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
+
+
+                a.carousel-control-prev(href='#carouselClubHouse', role='button', data-slide='prev')
+                    img.rotate180(src="assets/icons/black.svg")
+                a.carousel-control-next(href='#carouselClubHouse', role='button', data-slide='next')
+                    img(src="assets/icons/black.svg")
+            .container
+                .house-info.bordered-block
+                    .content
+                        h3 Клубный дом – место силы CEO Club Ukraine:
+                        ul
+                            li Центр жизни клуба, объединяющий сильнейших личностей и лучшие умы страны
+                            li Два этажа в элегантном особняке на Печерске
+                            li Комфортные условия для сосредоточенной работы и важных встреч
+                            li Пространство доверия для конфиденциальных обсуждений и переговоров
+                            li Уютная атмосфера неформальных вечеров за бокалом вина
 
 
 
     script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
     script(src="js/bootstrap.min.js")
+    script(src="js/ekko-lightbox.min.js")
     script(src="js/libs.js")
 
 
