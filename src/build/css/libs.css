@@ -31,6 +31,16 @@ h4 {
   letter-spacing: 7px;
   color: #26282b; }
 
+h6 {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #26282b; }
+
 .btn {
   width: 296px;
   -webkit-border-radius: 0;
@@ -124,6 +134,12 @@ h4 {
       -ms-transform: rotate(180deg);
        -o-transform: rotate(180deg);
           transform: rotate(180deg); }
+
+.devider {
+  display: inline-block;
+  height: 2px;
+  background: #26282b;
+  width: 140px; }
 
 /**
  * modified version of eric meyer's reset 2.0
@@ -497,6 +513,16 @@ h4 {
   letter-spacing: 7px;
   color: #26282b; }
 
+h6 {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #26282b; }
+
 .btn {
   width: 296px;
   -webkit-border-radius: 0;
@@ -590,6 +616,12 @@ h4 {
       -ms-transform: rotate(180deg);
        -o-transform: rotate(180deg);
           transform: rotate(180deg); }
+
+.devider {
+  display: inline-block;
+  height: 2px;
+  background: #26282b;
+  width: 140px; }
 
 .header {
   height: 88px;
@@ -767,3 +799,100 @@ h4 {
     text-align: center;
     color: #26282b;
     padding: 0 16px; }
+
+.club-is-not {
+  padding-top: 40px;
+  padding-bottom: 80px; }
+  .club-is-not h3 {
+    margin-bottom: 40px; }
+  .club-is-not .not-items-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 56px; }
+    .club-is-not .not-items-container .not-item {
+      text-align: center;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 30%;
+         -moz-box-flex: 1;
+          -ms-flex: 1 1 30%;
+              flex: 1 1 30%;
+      max-width: 30%; }
+      .club-is-not .not-items-container .not-item .icon {
+        display: inline-block;
+        height: 120px;
+        width: 120px;
+        background: url("../assets/icons/not.svg") no-repeat; }
+      .club-is-not .not-items-container .not-item .title {
+        font-size: 18px;
+        padding: 0 64px;
+        line-height: 1.78;
+        letter-spacing: 0.7px; }
+
+.clubs-life {
+  padding-top: 80px;
+  padding-bottom: 102px;
+  background: #eff0f0; }
+  .clubs-life h3 {
+    margin-bottom: 24px; }
+    .clubs-life h3.m-b-72 {
+      margin-bottom: 72px; }
+  .clubs-life .devider {
+    margin: 40px auto; }
+  .clubs-life .carousel-fade {
+    margin-left: 36px; }
+    .clubs-life .carousel-fade .carousel-control-prev {
+      top: 50%;
+      margin-top: -36px;
+      left: -36px; }
+    .clubs-life .carousel-fade .carousel-control-next {
+      top: 50%;
+      margin-top: -36px;
+      right: -36px; }
+  .clubs-life .event-info {
+    text-align: left;
+    padding-left: 48px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%; }
+    .clubs-life .event-info .date {
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 0.7px;
+      color: #26282b; }
+    .clubs-life .event-info .title {
+      text-align: left;
+      margin: 0; }
+    .clubs-life .event-info .devider {
+      margin: 24px 0;
+      width: 40px; }
+    .clubs-life .event-info .description {
+      font-size: 24px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: 1px; }
+  .clubs-life .events {
+    margin-bottom: 80px; }

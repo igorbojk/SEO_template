@@ -1,161 +1,209 @@
 <!DOCTYPE html>
 html(lang="ru")
-	head
-		meta(charset="utf-8")
+    head
+        meta(charset="utf-8")
 
-		title CEO WEB
-		meta(name="description" content="описание страницы")
-		meta(name="copyright" content="информация о вашей фирме")
-		meta(name="keywords" content="ключевые слова через запятую")
+        title CEO WEB
+        meta(name="description" content="описание страницы")
+        meta(name="copyright" content="информация о вашей фирме")
+        meta(name="keywords" content="ключевые слова через запятую")
 
-		meta(http-equiv="X-UA-Compatible" content="IE=edge")
-		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
 
-		meta(property="og:image" content="path/to/image.jpg")
-		link(rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon")
-		link(rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png")
-		link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png")
-		link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png")
+        meta(property="og:image" content="path/to/image.jpg")
+        link(rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon")
+        link(rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png")
+        link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png")
+        link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png")
 
-		<!-- Chrome, Firefox OS and Opera -->
-		meta(name="theme-color" content="#000")
-		<!-- Windows Phone -->
-		meta(name="msapplication-navbutton-color" content="#000")
-		<!-- iOS Safari -->
-		meta(name="apple-mobile-web-app-status-bar-style" content="#000")
+        <!-- Chrome, Firefox OS and Opera -->
+        meta(name="theme-color" content="#000")
+        <!-- Windows Phone -->
+        meta(name="msapplication-navbutton-color" content="#000")
+        <!-- iOS Safari -->
+        meta(name="apple-mobile-web-app-status-bar-style" content="#000")
 
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic', rel='stylesheet')
-		link(href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;subset=cyrillic" rel="stylesheet")
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic', rel='stylesheet')
+        link(href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;subset=cyrillic" rel="stylesheet")
 
-		link(rel="stylesheet" href="css/bootstrap.min.css")
-		link(rel="stylesheet" href="css/libs.min.css")
+        link(rel="stylesheet" href="css/bootstrap.min.css")
+        link(rel="stylesheet" href="css/libs.min.css")
 
-	body
-		.container
-			nav.navbar.navbar-expand-lg.navbar-light.header
-				a.navbar-brand(href='#')
-					img(src="assets/images/logo-sign.svg")
-				button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
-					span.navbar-toggler-icon
-				#navbarTogglerDemo03.collapse.navbar-collapse
-					ul.navbar-nav.m-auto
-						li.nav-item.active
-							a.nav-link(href='#')
-								| О клубе
-						li.nav-item
-							a.nav-link(href='#') Жизнь клуба
-						li.nav-item
-							a.nav-link(href='#') Членство
-						li.nav-item
-							a.nav-link(href='#') Мероприятия
-						li.nav-item
-							a.nav-link(href='#') Блог
-					ul.navbar-nav.ml-auto
-						li.nav-item
-							a.nav-link.knowledge-base(href='#')
-								img(src="assets/icons/lock.svg")
-								span База знаний
-						li.nav-item.dropdown
-							a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-								| РУС
-							.dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
-								a.dropdown-item.active(href='#') РУССКИЙ
-								a.dropdown-item(href='#') УКРАЇНСЬКА
-								a.dropdown-item(href='#') ENGLISH
+    body
+        .container
+            nav.navbar.navbar-expand-lg.navbar-light.header
+                a.navbar-brand(href='#')
+                    img(src="assets/images/logo-sign.svg")
+                button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarTogglerDemo03.collapse.navbar-collapse
+                    ul.navbar-nav.m-auto
+                        li.nav-item.active
+                            a.nav-link(href='#')
+                                | О клубе
+                        li.nav-item
+                            a.nav-link(href='#') Жизнь клуба
+                        li.nav-item
+                            a.nav-link(href='#') Членство
+                        li.nav-item
+                            a.nav-link(href='#') Мероприятия
+                        li.nav-item
+                            a.nav-link(href='#') Блог
+                    ul.navbar-nav.ml-auto
+                        li.nav-item
+                            a.nav-link.knowledge-base(href='#')
+                                img(src="assets/icons/lock.svg")
+                                span База знаний
+                        li.nav-item.dropdown
+                            a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                | РУС
+                            .dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
+                                a.dropdown-item.active(href='#') РУССКИЙ
+                                a.dropdown-item(href='#') УКРАЇНСЬКА
+                                a.dropdown-item(href='#') ENGLISH
 
-			section.head-banner
-				a(href="#").slide-down
-					img(src="assets/icons/arrow-down.svg")
-				h1.text-center CEO Club Ukraine
-				h4.text-center Развитие. Общение. Сотрудничество.
-				.action-buttons.text-center
-					button.btn.btn-primary(type='button') Мы на Facebook
-					button.btn.btn-secondary(type='button') Подписаться на дайджест
-				img.banner(src="assets/images/video.png")
+            section.head-banner
+                a(href="#").slide-down
+                    img(src="assets/icons/arrow-down.svg")
+                h1.text-center CEO Club Ukraine
+                h4.text-center Развитие. Общение. Сотрудничество.
+                .action-buttons.text-center
+                    button.btn.btn-primary(type='button') Мы на Facebook
+                    button.btn.btn-secondary(type='button') Подписаться на дайджест
+                img.banner(src="assets/images/video.png")
 
-		section.priorities
-			.container
-				h3 Что CEO Club Ukraine дает своим участникам:
-				.row
-					.col.col-lg-10
-						#carouselExampleControls.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
-							.carousel-inner
-								.carousel-item.active
-									img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
-									.annotation-container
-										.annotation
-											.counter 1
-											span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
-											.slider-controls
-												a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
-													img.rotate180(src="assets/icons/white.svg")
-												a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
-													img(src="assets/icons/white.svg")
-								.carousel-item
-									img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
-									.annotation-container
-										.annotation
-											.counter 2
-											span  Еще один текст
-											.slider-controls
-												a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
-													img.rotate180(src="assets/icons/white.svg")
-												a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
-													img(src="assets/icons/white.svg")
-		section.principles
-			.container
-				h3 Наши принципы
-				.row
-					.col.col-lg-10.offset-lg-1
-						.row
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/person.svg")
-									.title Сообщество личностей, а не компаний и статусов
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/value.svg")
-									.title Создание единой среды, объединяющей людей с общими ценностями и жизненной философией
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/union.svg")
-									.title Объединение и развитие бизнес-элиты страны
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/reputation.svg")
-									.title Позитивная деловая репутация как приоритетный критерий членства
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/integration.svg")
-									.title Быстрая интеграция и эффективная экосистема для удачного сотрудничества
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/event.svg")
-									.title Территория полного доверия: нетворкинг и мероприятия – инструмент, а не цель
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/balance.svg")
-									.title Диверсификация различных сфер бизнеса, баланс взглядов, полов и возрастов
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/synergy.svg")
-									.title Синергия сильнейших для качественных изменений в обществе
-							.col.col-lg-4
-								.principles-item
-									img(src="assets/icons/community.svg")
-									.title Каждый член клуба – не клиент, а участник сообщества, привносящий свой опыт, внимание и экспертизу
+        section.priorities
+            .container
+                h3 Что CEO Club Ukraine дает своим участникам:
+                .row
+                    .col.col-lg-10
+                        #carouselExampleControls.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
+                            .carousel-inner
+                                .carousel-item.active
+                                    img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
+                                    .annotation-container
+                                        .annotation
+                                            .counter 1
+                                            span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
+                                            .slider-controls
+                                                a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+                                                    img.rotate180(src="assets/icons/white.svg")
+                                                a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+                                                    img(src="assets/icons/white.svg")
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
+                                    .annotation-container
+                                        .annotation
+                                            .counter 2
+                                            span  Еще один текст
+                                            .slider-controls
+                                                a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+                                                    img.rotate180(src="assets/icons/white.svg")
+                                                a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+                                                    img(src="assets/icons/white.svg")
+        section.principles
+            .container
+                h3 Наши принципы
+                .row
+                    .col.col-lg-10.offset-lg-1
+                        .row
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/person.svg")
+                                    .title Сообщество личностей, а не компаний и статусов
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/value.svg")
+                                    .title Создание единой среды, объединяющей людей с общими ценностями и жизненной философией
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/union.svg")
+                                    .title Объединение и развитие бизнес-элиты страны
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/reputation.svg")
+                                    .title Позитивная деловая репутация как приоритетный критерий членства
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/integration.svg")
+                                    .title Быстрая интеграция и эффективная экосистема для удачного сотрудничества
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/event.svg")
+                                    .title Территория полного доверия: нетворкинг и мероприятия – инструмент, а не цель
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/balance.svg")
+                                    .title Диверсификация различных сфер бизнеса, баланс взглядов, полов и возрастов
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/synergy.svg")
+                                    .title Синергия сильнейших для качественных изменений в обществе
+                            .col.col-lg-4
+                                .principles-item
+                                    img(src="assets/icons/community.svg")
+                                    .title Каждый член клуба – не клиент, а участник сообщества, привносящий свой опыт, внимание и экспертизу
+        section.club-is-not
+            .container
+                h3 Чем клуб не является
+                .not-items-container
+                    .not-item
+                        .icon
+                        .title Ивент-агентством
+                    .not-item
+                        .icon
+                        .title Платформой для обмена визитками
+                    .not-item
+                        .icon
+                        .title Консьерж-сервисом
+                    .not-item
+                        .icon
+                        .title Лоббистской организацией
+                    .not-item
+                        .icon
+                        .title Местом, где меряются статусом и атрибутикой
+                .text-center
+                    button.btn.btn-primary(type='button') Присоединиться к клубу
+
+        section.clubs-life
+            .container
+                h3 Жизнь клуба
+                .row
+                    .col.col-lg-8.offset-lg-2.text-center
+                        h6 Клуб создает и поддерживает целую живую экосистему с удобной инфраструктурой, отточенными инструментами интеграции и взаимодействия между участниками. Членство в клубе дает доступ к десяткам форматов для общения, сотрудничества, образования и насыщенному календарю из более 100 событий в год.
+                        .devider
+                .events
+                    h3.m-b-72 Некоторые события клубной жизни
+                    .row
+                        .col.col-lg-6
+                            #carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
+                                .carousel-inner
+                                    .carousel-item.active
+                                        img.d-block.w-100(src='assets/images/sergey.jpg', alt='First slide')
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
+                                a.carousel-control-prev(href='#carousel', role='button', data-slide='prev')
+                                    img.rotate180(src="assets/icons/white.svg")
+                                a.carousel-control-next(href='#carousel', role='button', data-slide='next')
+                                    img(src="assets/icons/white.svg")
+                        .col.col-lg-6
+                            .event-info
+                                .info-container
+                                    .date 28 марта 2017
+                                    h3.title Встреча с Сергеем Тигипко
+                                    .devider
+                                    .description Описание мероприятия
+                .text-center
+                    button.btn.btn-primary(type='button') ПОДРОБНЕЕ О Жизни Клуба
 
 
 
 
-
-
-
-	script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
-	script(src="js/bootstrap.min.js")
-	script(src="js/libs.js")
-	
+    script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+    script(src="js/bootstrap.min.js")
+    script(src="js/libs.js")
 
 
 
