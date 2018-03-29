@@ -1,9 +1,14 @@
 {
-  "name": "gulp-start",
+  "name": "seo-landing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "css-reset-and-normalize-sass": "^0.1.2",
+    "gulp-sass": "^3.2.1",
+    "node-sass": "^4.8.3",
+    "normalize-scss": "^7.0.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
@@ -11,10 +16,10 @@
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
     "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.3.2",
+    "gulp-server-livereload": "^1.9.2",
     "gulp-watch": "^4.3.11",
-    "node-normalize-scss": "^1.4.0",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "node-normalize-scss": "^1.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

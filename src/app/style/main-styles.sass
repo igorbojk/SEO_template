@@ -1,0 +1,116 @@
+//main fonts
+//    font-family: 'Open Sans', sans-serif
+//    font-family: 'Playfair Display', serif
+
+@import "colors"
+
+body
+    font-family: 'Open Sans', sans-serif
+
+h1
+
+    font-size: 88px
+    font-weight: 900
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.36
+    letter-spacing: normal
+    color: $text
+h3
+    font-family: 'Playfair Display', serif
+    font-size: 40px
+    font-weight: 900
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.6
+    letter-spacing: normal
+    text-align: center
+    color: $text
+h4
+    font-size: 24px
+    font-weight: 600
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.33
+    letter-spacing: 7px
+    color: $text
+
+.btn
+    width: 296px
+    border-radius: 0
+    background: none
+    text-transform: uppercase
+    font-size: 16px
+    font-weight: normal
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.5
+    letter-spacing: 0.8px
+    text-align: center
+    padding: 16px 0
+
+.btn-primary
+    border: solid 1px $primary
+    color: $primary
+    &:hover
+        background: $primary
+        color: $white
+
+.btn-secondary
+    border: solid 1px $secondary
+    color: $white
+    background: $secondary
+    &:hover
+        background: $text
+
+
+/* Carousel Fading slide
+
+.carousel-fade
+    .carousel-inner
+        background: $white
+    .carousel-control
+        z-index: 2
+    .carousel-item
+        opacity: 0
+        transition: opacity .7s
+        transform: translate3d(0, 0, 0)!important
+    .carousel-item.active,
+    .carousel-item-next.carousel-item-left,
+    .carousel-item-prev.carousel-item-right
+        opacity: 1
+    .carousel-item.active.carousel-item-left,
+    .carousel-item.active.carousel-item-right
+        left: 0
+        opacity: 0
+        z-index: 1
+
+.bordered-block
+     position: relative
+     &:after
+         z-index: 1
+         display: block
+         content: ''
+         position: absolute
+         top: 20px
+         left: 20px
+         height: 100%
+         width: 100%
+         border: solid 1px #26282b
+         box-sizing: border-box
+
+.carousel-fade
+    .carousel-inner
+        z-index: 3
+    .carousel-control-next,
+    .carousel-control-prev
+        z-index: 3
+        width: 72px
+        height: 72px
+        background: $secondary
+        opacity: 1
+        &:hover
+            background: $text
+
+.rotate180
+    transform: rotate(180deg)

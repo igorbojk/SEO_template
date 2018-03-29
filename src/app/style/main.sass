@@ -1,4 +1,155 @@
-@import "normalize";
-/*styles*/
-body
-    color: red
+@import '../../../node_modules/css-reset-and-normalize-sass/scss/reset-and-normalize'
+@import "colors"
+@import 'main-styles'
+
+.header
+    height: 88px
+    background-color: white
+
+.navbar-light
+    .navbar-nav
+        .nav-item.active
+            .nav-link
+                color: $secondary
+        .nav-link
+            margin: 0 20px
+            font-size: 16px
+            font-weight: normal
+            font-style: normal
+            font-stretch: normal
+            line-height: normal
+            letter-spacing: 3px
+            text-align: left
+            color: #26282b
+            &:hover
+            &.knowledge-base
+                img
+                    margin-right: 4px
+            &.dropdown-toggle
+                font-weight: 600
+                margin: 0
+        .dropdown-menu
+            background-color: $white
+            box-shadow: 0 2px 8px 0 rgba(199, 202, 205, 0.7)
+            border: none
+            padding: 8px 24px
+            .dropdown-item
+                padding: 0
+                margin: 8px 0
+                display: inline-block
+                text-transform: uppercase
+                &:hover
+                    background: none
+                    text-decoration: underline
+                &.active
+                    font-weight: 600
+                    background: none
+                    color: inherit
+
+.head-banner
+    position: relative
+    background: $white
+    .slide-down
+        position: absolute
+        left: 0
+        top: 110px
+    h1
+        margin-top: 80px
+        font-family: 'Playfair Display', serif
+    h4
+        text-transform: uppercase
+        margin-bottom: 80px
+    .action-buttons
+        margin-bottom: 127px
+        .btn
+            margin: 0 10px
+    .banner
+        width: 100%
+        height: auto
+        margin-bottom: -200px
+
+.priorities
+    padding-top: 280px
+    background-color: #eff0f0
+    h3
+        text-align: center
+        margin-bottom: 60px
+        display: inline-block
+        width: 100%
+    .carousel-fade
+        margin-bottom: 100px
+        .carousel-inner
+            overflow: visible
+        .carousel-item
+            .annotation-container
+                position: absolute
+                top: 0
+                right: 0
+                left: 0
+                bottom: 0
+                display: flex
+                align-items: center
+                justify-content: flex-end
+                .annotation
+                    width: 540px
+                    height: 280px
+                    position: relative
+                    right: -145px
+                    background-color: $white
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    padding: 0 40px 0 75px
+                    .counter
+                        position: absolute
+                        left: 40px
+                        top: 0
+                        font-family: 'Playfair Display', serif
+                        font-size: 168px
+                        font-weight: 900
+                        font-style: normal
+                        font-stretch: normal
+                        line-height: .6
+                        letter-spacing: normal
+                        text-align: center
+                        color: #eff0f0
+                    span
+                        font-size: 18px
+                        font-weight: normal
+                        font-style: normal
+                        font-stretch: normal
+                        line-height: 1.78
+                        letter-spacing: 0.7px
+                        text-align: left
+                        color: $text
+                        position: relative
+                .slider-controls
+                    position: absolute
+                    right: 0
+                    bottom: -72px
+                    .carousel-control-next,
+                    .carousel-control-prev
+                        position: static
+                        display: inline-flex
+                    .carousel-control-prev
+                        margin-right: 1px
+
+.principles
+    h3
+        margin-top: 80px
+        margin-bottom: 40px
+    .principles-item
+        text-align: center
+        margin-bottom: 32px
+        img
+            margin-bottom: 32px
+        .title
+            font-size: 18px
+            font-weight: normal
+            font-style: normal
+            font-stretch: normal
+            line-height: 1.78
+            letter-spacing: 0.7px
+            text-align: center
+            color: $text
+            padding: 0 16px

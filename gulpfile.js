@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     watch = require('gulp-watch'),
     concat = require('gulp-concat'),
-    csso = require('gulp-csso');
+    csso = require('gulp-csso'),
+    server = require('gulp-server-livereload')
 
 gulp.task('gulpJade',function(){
     return gulp.src('src/app/template/**/*.jade')
@@ -61,10 +62,10 @@ gulp.task('scripts', function(){
             console.log('\n');
         }))
         .pipe(gulp.dest('src/build/js'))
+
 });
 
 gulp.task('watch', function(){
-    
     gulp.watch('src/app/template/**/*.jade', batch(function(events, done){
         gulp.start('gulpJade',done);
     }));
@@ -80,8 +81,19 @@ gulp.task('watch', function(){
     gulp.watch('src/build/css/libs.css', batch(function(events, done) {
         gulp.start('minCss', done);
     }));
+
+});
+
+gulp.task('webserver', function() {
+    gulp.src('src/build/')
+        .pipe(server({
+            livereload: true,
+            directoryListing: false,
+            open: false,
+            defaultFile: 'index.html',
+        }));
 });
 
 gulp.task('build', ['sass', 'minCss', 'gulpJade', 'scripts']);
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['watch', 'webserver']);
