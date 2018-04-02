@@ -31,202 +31,304 @@ html(lang="ru")
         link(rel="stylesheet" href="css/bootstrap.min.css")
         link(rel="stylesheet" href="css/libs.min.css")
         link(rel="stylesheet" href="css/ekko-lightbox.css")
+        link(rel="stylesheet" href="css/slick.css")
+        link(rel="stylesheet" href="css/slick-theme.css")
 
 
     body
-        .container
-            nav.navbar.navbar-expand-lg.navbar-light.header
-                a.navbar-brand(href='#')
-                    img(src="assets/images/logo-sign.svg")
-                button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
-                    span.navbar-toggler-icon
-                #navbarTogglerDemo03.collapse.navbar-collapse
-                    ul.navbar-nav.m-auto
-                        li.nav-item.active
-                            a.nav-link(href='#')
-                                | О клубе
-                        li.nav-item
-                            a.nav-link(href='#') Жизнь клуба
-                        li.nav-item
-                            a.nav-link(href='#') Членство
-                        li.nav-item
-                            a.nav-link(href='#') Мероприятия
-                        li.nav-item
-                            a.nav-link(href='#') Блог
-                    ul.navbar-nav.ml-auto
-                        li.nav-item
-                            a.nav-link.knowledge-base(href='#')
-                                img(src="assets/icons/lock.svg")
-                                span База знаний
-                        li.nav-item.dropdown
-                            a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                                | РУС
-                            .dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
-                                a.dropdown-item.active(href='#') РУССКИЙ
-                                a.dropdown-item(href='#') УКРАЇНСЬКА
-                                a.dropdown-item(href='#') ENGLISH
+        header
+            .container
+                nav.navbar.navbar-expand-lg.navbar-light.header
+                    a.navbar-brand(href='#')
+                        img(src="assets/images/logo-sign.svg")
+                    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
+                        span.navbar-toggler-icon
+                    #navbarTogglerDemo03.collapse.navbar-collapse
+                        ul.navbar-nav.m-auto
+                            li.nav-item.active
+                                a.nav-link(href='#')
+                                    | О клубе
+                            li.nav-item
+                                a.nav-link(href='#') Жизнь клуба
+                            li.nav-item
+                                a.nav-link(href='#') Членство
+                            li.nav-item
+                                a.nav-link(href='#') Мероприятия
+                            li.nav-item
+                                a.nav-link(href='#') Блог
+                        ul.navbar-nav.ml-auto
+                            li.nav-item
+                                a.nav-link.knowledge-base(href='#')
+                                    img(src="assets/icons/lock.svg")
+                                    span База знаний
+                            li.nav-item.dropdown
+                                a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                    | РУС
+                                .dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
+                                    a.dropdown-item.active(href='#') РУССКИЙ
+                                    a.dropdown-item(href='#') УКРАЇНСЬКА
+                                    a.dropdown-item(href='#') ENGLISH
 
-            section.head-banner
-                a(href="#").slide-down
-                    img(src="assets/icons/arrow-down.svg")
-                h1.text-center CEO Club Ukraine
-                h4.text-center Развитие. Общение. Сотрудничество.
-                .action-buttons.text-center
-                    button.btn.btn-primary(type='button') Мы на Facebook
-                    button.btn.btn-secondary(type='button') Подписаться на дайджест
-                img.banner(src="assets/images/video.png")
-
-        section.priorities
-            .container
-                h3 Что CEO Club Ukraine дает своим участникам:
-                .row
-                    .col.col-lg-10
-                        #carouselExampleControls.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
-                            .carousel-inner
-                                .carousel-item.active
-                                    img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
-                                    .annotation-container
-                                        .annotation
-                                            .counter 1
-                                            span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
-                                            .slider-controls
-                                                a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
-                                                    img.rotate180(src="assets/icons/white.svg")
-                                                a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
-                                                    img(src="assets/icons/white.svg")
-                                .carousel-item
-                                    img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
-                                    .annotation-container
-                                        .annotation
-                                            .counter 2
-                                            span  Еще один текст
-                                            .slider-controls
-                                                a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
-                                                    img.rotate180(src="assets/icons/white.svg")
-                                                a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
-                                                    img(src="assets/icons/white.svg")
-        section.principles
-            .container
-                h3 Наши принципы
-                .row
-                    .col.col-lg-10.offset-lg-1
-                        .row
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/person.svg")
-                                    .title Сообщество личностей, а не компаний и статусов
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/value.svg")
-                                    .title Создание единой среды, объединяющей людей с общими ценностями и жизненной философией
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/union.svg")
-                                    .title Объединение и развитие бизнес-элиты страны
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/reputation.svg")
-                                    .title Позитивная деловая репутация как приоритетный критерий членства
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/integration.svg")
-                                    .title Быстрая интеграция и эффективная экосистема для удачного сотрудничества
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/event.svg")
-                                    .title Территория полного доверия: нетворкинг и мероприятия – инструмент, а не цель
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/balance.svg")
-                                    .title Диверсификация различных сфер бизнеса, баланс взглядов, полов и возрастов
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/synergy.svg")
-                                    .title Синергия сильнейших для качественных изменений в обществе
-                            .col.col-lg-4
-                                .principles-item
-                                    img(src="assets/icons/community.svg")
-                                    .title Каждый член клуба – не клиент, а участник сообщества, привносящий свой опыт, внимание и экспертизу
-        section.club-is-not
-            .container
-                h3 Чем клуб не является
-                .not-items-container
-                    .not-item
-                        .icon
-                        .title Ивент-агентством
-                    .not-item
-                        .icon
-                        .title Платформой для обмена визитками
-                    .not-item
-                        .icon
-                        .title Консьерж-сервисом
-                    .not-item
-                        .icon
-                        .title Лоббистской организацией
-                    .not-item
-                        .icon
-                        .title Местом, где меряются статусом и атрибутикой
-                .text-center
-                    button.btn.btn-primary(type='button') Присоединиться к клубу
-
-        section.clubs-life
-            .container
-                h3 Жизнь клуба
-                .row
-                    .col.col-lg-8.offset-lg-2.text-center
-                        h6 Клуб создает и поддерживает целую живую экосистему с удобной инфраструктурой, отточенными инструментами интеграции и взаимодействия между участниками. Членство в клубе дает доступ к десяткам форматов для общения, сотрудничества, образования и насыщенному календарю из более 100 событий в год.
-                        .devider
-                .events
-                    h3.m-b-72 Некоторые события клубной жизни
+                section.head-banner
+                    a(href="#").slide-down
+                        img(src="assets/icons/arrow-down.svg")
+                    h1.text-center CEO Club Ukraine
+                    h4.text-center Развитие. Общение. Сотрудничество.
+                    .action-buttons.text-center
+                        button.btn.btn-primary(type='button') Мы на Facebook
+                        button.btn.btn-secondary(type='button') Подписаться на дайджест
+                    img.banner(src="assets/images/video.png")
+        main
+            section.priorities
+                .container
+                    h3 Что CEO Club Ukraine дает своим участникам:
                     .row
-                        .col.col-lg-6
-                            #carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
+                        .col.col-lg-10
+                            #carouselExampleControls.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
                                 .carousel-inner
                                     .carousel-item.active
-                                        img.d-block.w-100(src='assets/images/sergey.jpg', alt='First slide')
+                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
+                                        .annotation-container
+                                            .annotation
+                                                .counter 1
+                                                span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
+                                                .slider-controls
+                                                    a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+                                                        img.rotate180(src="assets/icons/white.svg")
+                                                    a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+                                                        img(src="assets/icons/white.svg")
                                     .carousel-item
                                         img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
-                                a.carousel-control-prev(href='#carousel', role='button', data-slide='prev')
-                                    img.rotate180(src="assets/icons/white.svg")
-                                a.carousel-control-next(href='#carousel', role='button', data-slide='next')
-                                    img(src="assets/icons/white.svg")
+                                        .annotation-container
+                                            .annotation
+                                                .counter 2
+                                                span  Еще один текст
+                                                .slider-controls
+                                                    a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+                                                        img.rotate180(src="assets/icons/white.svg")
+                                                    a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+                                                        img(src="assets/icons/white.svg")
+            section.principles
+                .container
+                    h3 Наши принципы
+                    .row
+                        .col.col-lg-10.offset-lg-1
+                            .row
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/person.svg")
+                                        .title Сообщество личностей, а не компаний и статусов
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/value.svg")
+                                        .title Создание единой среды, объединяющей людей с общими ценностями и жизненной философией
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/union.svg")
+                                        .title Объединение и развитие бизнес-элиты страны
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/reputation.svg")
+                                        .title Позитивная деловая репутация как приоритетный критерий членства
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/integration.svg")
+                                        .title Быстрая интеграция и эффективная экосистема для удачного сотрудничества
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/event.svg")
+                                        .title Территория полного доверия: нетворкинг и мероприятия – инструмент, а не цель
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/balance.svg")
+                                        .title Диверсификация различных сфер бизнеса, баланс взглядов, полов и возрастов
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/synergy.svg")
+                                        .title Синергия сильнейших для качественных изменений в обществе
+                                .col.col-lg-4
+                                    .principles-item
+                                        img(src="assets/icons/community.svg")
+                                        .title Каждый член клуба – не клиент, а участник сообщества, привносящий свой опыт, внимание и экспертизу
+            section.club-is-not
+                .container
+                    h3 Чем клуб не является
+                    .not-items-container
+                        .not-item
+                            .icon
+                            .title Ивент-агентством
+                        .not-item
+                            .icon
+                            .title Платформой для обмена визитками
+                        .not-item
+                            .icon
+                            .title Консьерж-сервисом
+                        .not-item
+                            .icon
+                            .title Лоббистской организацией
+                        .not-item
+                            .icon
+                            .title Местом, где меряются статусом и атрибутикой
+                    .text-center
+                        button.btn.btn-primary(type='button') Присоединиться к клубу
+
+            section.clubs-life
+                .container
+                    h3 Жизнь клуба
+                    .row
+                        .col.col-lg-8.offset-lg-2.text-center
+                            h6 Клуб создает и поддерживает целую живую экосистему с удобной инфраструктурой, отточенными инструментами интеграции и взаимодействия между участниками. Членство в клубе дает доступ к десяткам форматов для общения, сотрудничества, образования и насыщенному календарю из более 100 событий в год.
+                            .devider
+                    .events
+                        h3.m-b-72 Некоторые события клубной жизни
+                        .row
+                            .col.col-lg-6
+                                #carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
+                                    .carousel-inner
+                                        .carousel-item.active
+                                            img.d-block.w-100(src='assets/images/sergey.jpg', alt='First slide')
+                                        .carousel-item
+                                            img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
+                                    a.carousel-control-prev(href='#carousel', role='button', data-slide='prev')
+                                        img.rotate180(src="assets/icons/white.svg")
+                                    a.carousel-control-next(href='#carousel', role='button', data-slide='next')
+                                        img(src="assets/icons/white.svg")
+                            .col.col-lg-6
+                                .event-info
+                                    .info-container
+                                        .date 28 марта 2017
+                                        h3.title Встреча с Сергеем Тигипко
+                                        .devider.small
+                                        .description Описание мероприятия
+                    .text-center
+                        button.btn.btn-primary(type='button') ПОДРОБНЕЕ О Жизни Клуба
+
+            section.club-house
+                #carouselClubHouse.carousel.slide.carousel-fade(data-ride="carousel")
+                    .carousel-inner
+                        .carousel-item.active
+                            a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
+                                img(src="assets/icons/expand.svg")
+                            img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
+                        .carousel-item
+                            a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
+                                img(src="assets/icons/expand.svg")
+                            img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
+
+
+                    a.carousel-control-prev(href='#carouselClubHouse', role='button', data-slide='prev')
+                        img.rotate180(src="assets/icons/black.svg")
+                    a.carousel-control-next(href='#carouselClubHouse', role='button', data-slide='next')
+                        img(src="assets/icons/black.svg")
+                .container
+                    .house-info.bordered-block
+                        .content
+                            h3 Клубный дом – место силы CEO Club Ukraine:
+                            ul
+                                li Центр жизни клуба, объединяющий сильнейших личностей и лучшие умы страны
+                                li Два этажа в элегантном особняке на Печерске
+                                li Комфортные условия для сосредоточенной работы и важных встреч
+                                li Пространство доверия для конфиденциальных обсуждений и переговоров
+                                li Уютная атмосфера неформальных вечеров за бокалом вина
+
+            section.upcoming-events
+                .container
+                    h3 Хотите посетить гостевое мероприятие клуба?
+                    .row
+                        .col.col-lg-8.offset-lg-2.text-center
+                            h6 На некоторые мероприятия мы приглашаем гостей, заинтересованных во вступлении в клуб и соответствующих его высоким стандартам. Подробнее о критериях членства здесь. Гостевое мероприятие – возможность окунуться в атмосферу клуба, узнать больше о наших форматах, познакомиться с членами клуба
+                            .devider
+                    h3.m-b-72 Ближайшее мероприятие
+                    .row
+                        .col.col-lg-6
+                            .bordered-block
+                                img.d-block.w-100(src='assets/images/event.jpg')
                         .col.col-lg-6
                             .event-info
                                 .info-container
-                                    .date 28 марта 2017
+                                    .date 28 марта 2018, 19:00
                                     h3.title Встреча с Сергеем Тигипко
                                     .devider.small
-                                    .description Описание мероприятия
-                .text-center
-                    button.btn.btn-primary(type='button') ПОДРОБНЕЕ О Жизни Клуба
+                                    .name Сергей Тигипко
+                                    .role Политик, Основатель группы ТАС
+                                    button.btn.btn-primary(type='button') ЗАРЕГИСТРИРОВАТЬСЯ
 
-        section.club-house
-            #carouselClubHouse.carousel.slide.carousel-fade(data-ride="carousel")
-                .carousel-inner
-                    .carousel-item.active
-                        a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
-                            img(src="assets/icons/expand.svg")
-                        img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
-                    .carousel-item
-                        a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
-                            img(src="assets/icons/expand.svg")
-                        img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
+            section.club-advice
+                .container
+                    .row
+                        .col.col-lg-4.offset-lg-1
+                            blockquote
+                                img(src="assets/icons/quote.svg")
+                                span Качество нашей жизни и перспективы нашей деятельности напрямую зависят от того, какие люди нас окружают.  Мы создали окружение сильных, успешных, осознанных и прогрессивных людей с высокими ценностями, чтобы вместе создавать лучшее будущее нашей страны.
+                                .devider.small
+                                .name Сергей Гайдайчук
+                                .role президент CEO Club Ukraine
+                        .col.col-lg-7
+                            .bordered-block
+                                img.d-block.w-100(src='assets/images/ceo.jpg')
+                    h3 Совет клуба
+                    .advice-slider-container
+                        .advice-slider
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Сергей Гайдайчук
+                                    .desc основатель и президент CEO Club Ukraine
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Вячеслав Лысенко
+                                    .desc собственник UKR-CHINA COMMUNICATION
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Ярослав Плашко
+                                    .desc партнер CMS Group
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Тарас Кириченко
+                                    .desc председатель правления Правекс-Банка
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Сергей Гайдайчук
+                                    .desc основатель и президент CEO Club Ukraine
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Вячеслав Лысенко
+                                    .desc собственник UKR-CHINA COMMUNICATION
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Ярослав Плашко
+                                    .desc партнер CMS Group
+                            div
+                                .slider-item
+                                    .avatar
+                                        img(src='assets/images/board-1.jpg')
+                                    .title Тарас Кириченко
+                                    .desc председатель правления Правекс-Банка
+                        a(href="#").slider-button.slider-next-button.next
+                            img(src="assets/icons/black.svg")
+                        a(href="#").slider-button.slider-next-button.prev
+                            img.rotate180(src="assets/icons/black.svg")
+
+                    .text-center
+                        button.btn.btn-primary(type='button') Присоединиться к клубу
+
+            section.blog
+                h3 Блог клуба
 
 
-                a.carousel-control-prev(href='#carouselClubHouse', role='button', data-slide='prev')
-                    img.rotate180(src="assets/icons/black.svg")
-                a.carousel-control-next(href='#carouselClubHouse', role='button', data-slide='next')
-                    img(src="assets/icons/black.svg")
-            .container
-                .house-info.bordered-block
-                    .content
-                        h3 Клубный дом – место силы CEO Club Ukraine:
-                        ul
-                            li Центр жизни клуба, объединяющий сильнейших личностей и лучшие умы страны
-                            li Два этажа в элегантном особняке на Печерске
-                            li Комфортные условия для сосредоточенной работы и важных встреч
-                            li Пространство доверия для конфиденциальных обсуждений и переговоров
-                            li Уютная атмосфера неформальных вечеров за бокалом вина
 
 
 
@@ -234,6 +336,7 @@ html(lang="ru")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
     script(src="js/bootstrap.min.js")
     script(src="js/ekko-lightbox.min.js")
+    script(src="js/slick.min.js")
     script(src="js/libs.js")
 
 
