@@ -5,6 +5,66 @@
 .header
     height: 88px
     background-color: white
+    .devider
+        display: none
+        margin-top: 0
+    .language-mobile
+        display: none
+        a
+            color: $text
+            text-decoration: none
+            font-size: 14px
+            font-style: normal
+            font-stretch: normal
+            line-height: normal
+            letter-spacing: 2.6px
+            margin: 0 20px
+            &.active
+                text-decoration: underline
+                font-weight: 600
+        @media (max-width: 576px)
+            flex-wrap: wrap
+            a
+                flex: 1 1 auto
+                width: 100%
+                margin-bottom: 16px
+    @media (max-width: 992px)
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        box-shadow: inset 0 -1px 0 0 #c7cacd
+        z-index: 997
+        padding: 0 48px
+        .devider
+            display: inline-block
+        .dropdown
+            display: none
+        .language-mobile
+            display: flex
+            justify-content: center
+            padding-bottom: 80px
+    @media (max-width: 576px)
+        padding: 0 24px
+        .devider
+            margin: 16px 0
+            margin-top: 0
+
+.navbar-collapse
+    @media (max-width: 992px)
+        position: fixed
+        top: 88px
+        left: 0
+        right: 0
+        background-color: $white
+        box-shadow: inset 0 -1px 0 0 #c7cacd
+        text-align: center
+        .navbar-nav
+            padding-top: 80px
+            @media (max-width: 576px)
+                padding-top: 24px
+                &.ml-auto
+                    padding: 0
 
 .navbar-light
     .navbar-nav
@@ -21,6 +81,17 @@
             letter-spacing: 3px
             text-align: left
             color: #26282b
+            @media (min-width: 992px) and (max-width: 1280px)
+                margin: 0 8px
+            @media (min-width: 992px) and (max-width: 1100px)
+                margin: 0 4px
+                font-size: 14px
+            @media (max-width: 992px)
+                text-align: center
+                margin-bottom: 40px
+                font-weight: 600
+            @media (max-width: 576px)
+                margin-bottom: 16px
             &:hover
             &.knowledge-base
                 img
@@ -49,33 +120,50 @@
 .head-banner
     position: relative
     background: $white
+    padding-top: 80px
+    @media (max-width: 992px)
+        padding-top: 175px
     .slide-down
         position: absolute
         left: 0
         top: 110px
+        @media (max-width: 992px)
+            display: none
     h1
-        margin-top: 80px
         font-family: 'Playfair Display', serif
     h4
         text-transform: uppercase
         margin-bottom: 80px
+        @media (max-width: 576px)
+            margin-bottom: 32px
     .action-buttons
         margin-bottom: 127px
+        @media (max-width: 576px)
+            margin-bottom: 40px
         .btn
             margin: 0 10px
+            @media (max-width: 576px)
+                margin-bottom: 16px
+
     .banner
         width: 100%
         height: auto
         margin-bottom: -200px
+        @media (max-width: 576px)
+            margin-bottom: -80px
 
 .priorities
     padding-top: 280px
     background-color: #eff0f0
+    @media (max-width: 576px)
+        padding-bottom: 250px
     h3
         text-align: center
         margin-bottom: 60px
         display: inline-block
         width: 100%
+        @media (max-width: 992px)
+            margin-bottom: 40px
     .carousel-fade
         margin-bottom: 100px
         .carousel-inner
@@ -90,6 +178,8 @@
                 display: flex
                 align-items: center
                 justify-content: flex-end
+                @media (max-width: 992px)
+                    align-items: flex-end
                 .annotation
                     width: 540px
                     height: 280px
@@ -100,6 +190,10 @@
                     justify-content: center
                     align-items: center
                     padding: 0 40px 0 75px
+                    @media (max-width: 992px)
+                        right: -20px
+                        height: 226px
+                        width: 409px
                     .counter
                         position: absolute
                         left: 40px
@@ -113,6 +207,8 @@
                         letter-spacing: normal
                         text-align: center
                         color: #eff0f0
+                        @media (max-width: 992px)
+                            font-size: 128px
                     span
                         font-size: 18px
                         font-weight: normal
@@ -123,17 +219,46 @@
                         text-align: left
                         color: $text
                         position: relative
+                        @media (max-width: 992px)
+                            font-size: 16px
                 .slider-controls
                     position: absolute
                     right: 0
                     bottom: -72px
+                    @media (max-width: 992px)
+                        bottom: -56px
                     .carousel-control-next,
                     .carousel-control-prev
                         position: static
                         display: inline-flex
                     .carousel-control-prev
                         margin-right: 1px
-
+    #mobileCarousel
+        display: none
+        margin-left: 20px
+        .annotation-container .annotation
+            position: absolute
+            bottom: -250px
+            padding: 0
+            right: 0
+            background: none
+            left: 0
+            width: 100%
+            .counter
+                color: #dde0e0
+        .slider-controls
+            a
+                top: 50%
+                margin-top: -20px
+            .carousel-control-prev
+                left: -20px
+            .carousel-control-next
+                right: -20px
+        @media (max-width: 576px)
+            display: block
+    #carouselExampleControls
+        @media (max-width: 576px)
+            display: none
 .principles
     h3
         margin-top: 80px
@@ -141,6 +266,11 @@
     .principles-item
         text-align: center
         margin-bottom: 32px
+        @media (max-width: 992px)
+            max-width: 272px
+            margin: auto
+        @media (max-width: 576px)
+            margin-bottom: 56px
         img
             margin-bottom: 32px
         .title
@@ -153,6 +283,8 @@
             text-align: center
             color: $text
             padding: 0 16px
+            @media (max-width: 992px)
+                font-size: 16px
 
 .club-is-not
     padding-top: 40px
@@ -168,6 +300,9 @@
             text-align: center
             flex: 1 1 30%
             max-width: 30%
+            @media (max-width: 576px)
+                flex: 1 1 50%
+                max-width: 50%
             .icon
                 display: inline-block
                 height: 120px
@@ -178,17 +313,27 @@
                 padding: 0 64px
                 line-height: 1.78
                 letter-spacing: 0.7px
-
+                @media (max-width: 992px)
+                    padding: 0 8px
+    @media (max-width: 992px)
+        padding-bottom: 0
+        button
+            display: none
 .clubs-life
     padding-top: 80px
     padding-bottom: 102px
     background: #eff0f0
+    @media (max-width: 992px)
+        padding-bottom: 56px
     h3
         margin-bottom: 24px
         &.m-b-72
             margin-bottom: 72px
     .carousel-fade
         margin-left: 36px
+        @media (max-width: 992px)
+            margin-right: 36px
+            margin-bottom: 40px
         .carousel-control-prev
             top: 50%
             margin-top: -36px
@@ -203,6 +348,8 @@
         display: flex
         align-items: center
         height: 100%
+        @media (max-width: 576px)
+            padding-left: 24px
         .date
             font-size: 16px
             font-weight: normal
@@ -223,6 +370,8 @@
             letter-spacing: 1px
     .events
         margin-bottom: 80px
+        @media (max-width: 992px)
+            margin-bottom: 40px
 
 .club-house
     background: #eff0f0
@@ -242,10 +391,14 @@
             position: absolute
             right: 68px
             top: 40px
+            @media (max-width: 992px)
+                display: none
     .house-info
         width: 100%
         max-width: 560px
         margin-top: -240px
+        @media (max-width: 992px)
+            margin-top: -140px
         .content
             background: $white
             padding: 40px
@@ -260,6 +413,8 @@
                 letter-spacing: normal
                 text-align: left
                 margin-bottom: 24px
+                @media (max-width: 992px)
+                    font-size: 24px
             ul
                 li
                     position: relative
@@ -294,6 +449,11 @@
         display: flex
         align-items: center
         height: 100%
+        @media (max-width: 992px)
+            .info-conatiner
+                width: 100%
+        @media (max-width: 576px)
+            padding-left: 0
         .date,
         .role
             font-size: 16px
@@ -313,9 +473,17 @@
             font-stretch: normal
             line-height: 1.33
             letter-spacing: 1px
+            @media (max-width: 992px)
+                font-size: 16px
         .role
             margin-bottom: 24px
-
+            @media (max-width: 992px)
+                font-size: 16px
+    @media (max-width: 992px)
+        .bordered-block
+            margin-bottom: 40px
+        .action-btn
+            text-align: center
 .club-advice
     padding-top: 80px
     padding-bottom: 80px
@@ -324,12 +492,20 @@
         margin-bottom: 56px
     .bordered-block
         margin-right: 16px
+        @media (max-width: 992px)
+            margin-bottom: 40px
+
     blockquote
         position: relative
+        @media (max-width: 992px)
+            padding-left: 40px
         img
             position: absolute
             top: 0
             left: -112px
+            @media (max-width: 992px)
+                left: -40px
+                width: 56px
         span
             font-size: 18px
             font-weight: normal
@@ -339,6 +515,7 @@
             letter-spacing: 0.7px
             text-align: left
             color: $text
+            display: inline-block
         .name
             font-size: 24px
             font-weight: 600
@@ -364,6 +541,11 @@
                 display: none !important
     .advice-slider
         margin-bottom: 71px
+        @media (max-width: 576px)
+            .slick-slide
+                text-align: center
+                .slider-item
+                    display: inline-block
         .slider-item
             max-width: 296px
             margin: auto 8px
@@ -420,18 +602,59 @@
     .blog-item
         background: $white
         margin-bottom: 16px
-        img
+        display: flex
+        height: 200px
+        @media (max-width: 992px)
+            height: 220px
+        @media (max-width: 576px)
+            height: auto
+            flex-wrap: wrap
+        .left-block
+            flex: 1 2 70%
+            max-width: 70%
+            display: flex
+            @media (max-width: 992px)
+                flex-direction: column
+            @media (max-width: 576px)
+                order: 2
+                flex: 1 1 100%
+                max-width: 100%
+        .right-block
+            flex: 1 1 30%
+            max-width: 30%
+            @media (max-width: 576px)
+                order: 1
+                flex: 1 1 100%
+                max-width: 100%
+                height: 170px
+        .image
             width: 100%
+            height: 100%
+            background-repeat: no-repeat
+            background-size: cover
         .info-container
+            flex: 1 2 30%
+            max-width: 30%
             display: flex
             align-items: center
             justify-content: center
             flex-wrap: wrap
             height: 100%
             border-right: solid 2px #eff0f0
+            @media (max-width: 992px)
+                border-right: none
+                border-bottom: solid 2px #eff0f0
+                flex: 1 1 100%
+                max-width: 100%
+                justify-content: left
+                padding-left: 40px
+            @media (max-width: 576px)
+                padding: 8px
             .info
                 padding: 0 40px
                 max-width: 100%
+                @media (max-width: 992px)
+                    padding: 24px
                 .date
                     font-size: 18px
                     font-weight: normal
@@ -440,6 +663,8 @@
                     line-height: 1.78
                     letter-spacing: 0.7px
                     color: $text
+                    @media (max-width: 992px)
+                        font-size: 14px
             .tags
                 display: flex
                 flex-wrap: wrap
@@ -449,10 +674,16 @@
                     letter-spacing: 0.7px
                     color: $text
                     font-weight: 600
+                    @media (max-width: 992px)
+                        font-size: 14px
+                        line-height: 30px
                 a
                     color: $secondary
                     text-decoration: underline
                     line-height: 32px
+                    @media (max-width: 992px)
+                        font-size: 14px
+                        line-height: 30px
                     &:hover
                         text-decoration: none
         .title
@@ -466,6 +697,16 @@
             font-family: 'Playfair Display', serif
             display: flex
             height: 100%
+            padding: 24px
+            flex: 1 4 70%
+            max-width: 70%
+            @media (max-width: 992px)
+                font-size: 18px
+                padding: 24px 40px
+                flex: 1 1 100%
+                max-width: 100%
+            @media (max-width: 576px)
+                padding: 24px
             a
                 margin: auto 0
                 color: inherit
@@ -476,6 +717,9 @@
         margin-top: 56px
 
 .partners
+    padding-top: 30px
+    @media (max-width: 992px)
+        padding-top: 56px
     .flex-container
         display: flex
         flex-wrap: wrap
@@ -486,6 +730,9 @@
             margin: 16px
             height: 50px
             box-sizing: border-box
+            @media (max-width: 576px)
+                flex: 1 1 50%
+                max-width: calc( 50% - 32px)
 
 .projects
     padding: 50px 0
@@ -499,7 +746,17 @@ footer
     background: #26282b
     padding-top: 80px
     padding-bottom: 70px
+    @media (max-width: 992px)
+        .logo
+            width: 144px
+            margin-bottom: 40px
+    @media (max-width: 576px)
+        .logo
+            margin-bottom: 24px
     .menu
+        @media (max-width: 576px)
+            text-align: center
+            margin-top: 24px
         li
             a
                 font-size: 16px
@@ -517,6 +774,8 @@ footer
                     color: $secondary
     .social-buttons
         margin-top: 60px
+        @media (max-width: 576px)
+            margin-top: 0
         button
             margin-bottom: 16px
     .contact-list-title
@@ -529,7 +788,12 @@ footer
         text-align: left
         color: #c7cacd
         margin-bottom: 16px
+        @media (max-width: 576px)
+            margin-top: 24px
+            text-align: center
     .contact-list
+        @media (max-width: 576px)
+            text-align: center
         li
             margin-bottom: 24px
             span

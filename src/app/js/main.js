@@ -5,6 +5,11 @@ $( document ).ready(function() {
         wrap: false,
         ride: false
     });
+    $('#mobileCarousel').carousel({
+        interval: 6000,
+        wrap: false,
+        ride: false
+    });
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
@@ -17,7 +22,21 @@ $( document ).ready(function() {
         dots: false,
         arrows: true,
         prevArrow: $('.advice-slider-prev-button'),
-        nextArrow: $('.advice-slider-next-button')
+        nextArrow: $('.advice-slider-next-button'),
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 
     $('.projects-slider').slick({
@@ -27,7 +46,21 @@ $( document ).ready(function() {
         dots: false,
         arrows: true,
         prevArrow: $('.projects-slider-prev-button'),
-        nextArrow: $('.projects-slider-next-button')
+        nextArrow: $('.projects-slider-next-button'),
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
+        ]
     });
 
 });

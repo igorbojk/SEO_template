@@ -42,7 +42,7 @@ html(lang="ru")
                     a.navbar-brand(href='#')
                         img(src="assets/images/logo-sign.svg")
                     button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
-                        span.navbar-toggler-icon
+                        .icon
                     #navbarTogglerDemo03.collapse.navbar-collapse
                         ul.navbar-nav.m-auto
                             li.nav-item.active
@@ -56,6 +56,7 @@ html(lang="ru")
                                 a.nav-link(href='#') Мероприятия
                             li.nav-item
                                 a.nav-link(href='#') Блог
+                        .devider
                         ul.navbar-nav.ml-auto
                             li.nav-item
                                 a.nav-link.knowledge-base(href='#')
@@ -68,6 +69,10 @@ html(lang="ru")
                                     a.dropdown-item.active(href='#') РУССКИЙ
                                     a.dropdown-item(href='#') УКРАЇНСЬКА
                                     a.dropdown-item(href='#') ENGLISH
+                        .language-mobile
+                            a.active(href='#') РУССКИЙ
+                            a(href='#') УКРАЇНСЬКА
+                            a(href='#') ENGLISH
 
                 section.head-banner
                     a(href="#").slide-down
@@ -108,45 +113,65 @@ html(lang="ru")
                                                         img.rotate180(src="assets/icons/white.svg")
                                                     a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
                                                         img(src="assets/icons/white.svg")
+                            #mobileCarousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
+                                .carousel-inner
+                                    .carousel-item.active
+                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
+                                        .annotation-container
+                                            .annotation
+                                                .counter 1
+                                                span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
+
+                                    .carousel-item
+                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
+                                        .annotation-container
+                                            .annotation
+                                                .counter 2
+                                                span  Еще один текст
+                                .slider-controls
+                                    a.carousel-control-prev(href='#mobileCarousel', role='button', data-slide='prev')
+                                        img.rotate180(src="assets/icons/white.svg")
+                                    a.carousel-control-next(href='#mobileCarousel', role='button', data-slide='next')
+                                        img(src="assets/icons/white.svg")
             section.principles
                 .container
                     h3 Наши принципы
                     .row
-                        .col.col-lg-10.offset-lg-1
+                        .col.col-lg-10.offset-lg-1.col-md-12
                             .row
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/person.svg")
                                         .title Сообщество личностей, а не компаний и статусов
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/value.svg")
                                         .title Создание единой среды, объединяющей людей с общими ценностями и жизненной философией
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/union.svg")
                                         .title Объединение и развитие бизнес-элиты страны
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/reputation.svg")
                                         .title Позитивная деловая репутация как приоритетный критерий членства
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/integration.svg")
                                         .title Быстрая интеграция и эффективная экосистема для удачного сотрудничества
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/event.svg")
                                         .title Территория полного доверия: нетворкинг и мероприятия – инструмент, а не цель
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/balance.svg")
                                         .title Диверсификация различных сфер бизнеса, баланс взглядов, полов и возрастов
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-6.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/synergy.svg")
                                         .title Синергия сильнейших для качественных изменений в обществе
-                                .col.col-lg-4
+                                .col.col-lg-4.col-md-12.col-sm-12
                                     .principles-item
                                         img(src="assets/icons/community.svg")
                                         .title Каждый член клуба – не клиент, а участник сообщества, привносящий свой опыт, внимание и экспертизу
@@ -182,7 +207,7 @@ html(lang="ru")
                     .events
                         h3.m-b-72 Некоторые события клубной жизни
                         .row
-                            .col.col-lg-6
+                            .col.col-lg-6.col-md-12.col-sm-12.col-12
                                 #carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
                                     .carousel-inner
                                         .carousel-item.active
@@ -193,7 +218,7 @@ html(lang="ru")
                                         img.rotate180(src="assets/icons/white.svg")
                                     a.carousel-control-next(href='#carousel', role='button', data-slide='next')
                                         img(src="assets/icons/white.svg")
-                            .col.col-lg-6
+                            .col.col-lg-6.col-md-12.col-sm-12.col-12
                                 .event-info
                                     .info-container
                                         .date 28 марта 2017
@@ -240,10 +265,10 @@ html(lang="ru")
                             .devider
                     h3.m-b-72 Ближайшее мероприятие
                     .row
-                        .col.col-lg-6
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
                             .bordered-block
                                 img.d-block.w-100(src='assets/images/event.jpg')
-                        .col.col-lg-6
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
                             .event-info
                                 .info-container
                                     .date 28 марта 2018, 19:00
@@ -251,19 +276,20 @@ html(lang="ru")
                                     .devider.small
                                     .name Сергей Тигипко
                                     .role Политик, Основатель группы ТАС
-                                    button.btn.btn-primary(type='button') ЗАРЕГИСТРИРОВАТЬСЯ
+                                    .action-btn
+                                        button.btn.btn-primary(type='button') ЗАРЕГИСТРИРОВАТЬСЯ
 
             section.club-advice
                 .container
                     .row
-                        .col.col-lg-4.offset-lg-1
+                        .col.col-lg-4.offset-lg-1.col-md-11.offset-md-1.order-md-2.offset-sm-1.order-sm-2.offset-1.order-2
                             blockquote
                                 img(src="assets/icons/quote.svg")
                                 span Качество нашей жизни и перспективы нашей деятельности напрямую зависят от того, какие люди нас окружают.  Мы создали окружение сильных, успешных, осознанных и прогрессивных людей с высокими ценностями, чтобы вместе создавать лучшее будущее нашей страны.
                                 .devider.small
                                 .name Сергей Гайдайчук
                                 .role президент CEO Club Ukraine
-                        .col.col-lg-7
+                        .col.col-lg-7.col-md-12.order-md-1.col-sm-12.order-sm-1.col-12.order-1
                             .bordered-block
                                 img.d-block.w-100(src='assets/images/ceo.jpg')
                     h3 Совет клуба
@@ -329,55 +355,50 @@ html(lang="ru")
                 .container
                     h3 Блог клуба
                     .blog-item
-                        .row
-                            .col.col-lg-3
-                                .info-container
-                                    .info
-                                        .date 28 марта 2018
-                                        .tags
-                                            span Рубрики:
-                                            a(href="#") Бизнес,
-                                            a(href="#") Культура,
-                                            a(href="#") Мероприятия
-                            .col.col-lg-6
-                                .title
-                                    a(href="#") Украине нужна коалиция реформаторов из государственного и частного секторов — Павло Шеремета
-                            .col.col-lg-3
-                                img(src="assets/images/blog1.jpg")
+                        .left-block
+                            .info-container
+                                .info
+                                    .date 28 марта 2018
+                                    .tags
+                                        span Рубрики:
+                                        a(href="#") Бизнес,
+                                        a(href="#") Культура,
+                                        a(href="#") Мероприятия
+                            .title
+                                a(href="#") Украине нужна коалиция реформаторов из государственного и частного секторов — Павло Шеремета
+                        .right-block
+                            .image(style="background-image: url('assets/images/blog1.jpg')")
 
                     .blog-item
-                        .row
-                            .col.col-lg-3
-                                .info-container
-                                    .info
-                                        .date 28 марта 2018
-                                        .tags
-                                            span Рубрики:
-                                            a(href="#") Бизнес,
-                                            a(href="#") Культура,
-                                            a(href="#") Мероприятия
-                            .col.col-lg-6
-                                .title
-                                    a(href="#") Заметки CEO Club: Партнёрство в бизнесе. Панельная дискуссия
-                            .col.col-lg-3
-                                img(src="assets/images/blog2.jpg")
+                        .left-block
+                            .info-container
+                                .info
+                                    .date 28 марта 2018
+                                    .tags
+                                        span Рубрики:
+                                        a(href="#") Бизнес,
+                                        a(href="#") Культура,
+                                        a(href="#") Мероприятия
+                            .title
+                                a(href="#") Заметки CEO Club: Партнёрство в бизнесе. Панельная дискуссия
+                        .right-block
+                            .image(style="background-image: url('assets/images/blog2.jpg')")
 
                     .blog-item
-                        .row
-                            .col.col-lg-3
-                                .info-container
-                                    .info
-                                        .date 28 марта 2018
-                                        .tags
-                                            span Рубрики:
-                                            a(href="#") Бизнес,
-                                            a(href="#") Tips from Tops,
-                                            a(href="#") Саморазвитие
-                            .col.col-lg-6
-                                .title
-                                    a(href="#") TIPS FROM TOPS: Ирина Папуша о саморазвитии
-                            .col.col-lg-3
-                                img(src="assets/images/blog3.jpg")
+                        .left-block
+                            .info-container
+                                .info
+                                    .date 28 марта 2018
+                                    .tags
+                                        span Рубрики:
+                                        a(href="#") Бизнес,
+                                        a(href="#") Tips from Tops,
+                                        a(href="#") Саморазвитие
+                            .title
+                                a(href="#") TIPS FROM TOPS: Ирина Папуша о саморазвитии
+                        .right-block
+                            .image(style="background-image: url('assets/images/blog3.jpg')")
+
                     .text-center.more-button-container
                         button.btn.btn-primary(type='button') Читать больше
 
@@ -396,25 +417,36 @@ html(lang="ru")
                 .container
                     h3 Проекты клуба
                     .row
-                        .col.col-lg-1
+                        .col.col-lg-1.col-md-1.col-sm-2.col-2
                             a(href="#").slider-button.projects-slider-prev-button
                                 img.rotate180(src="assets/icons/black.svg")
-                        .col.col-lg-10
+                        .col.col-lg-10.col-md-10.col-sm-8.col-8
                             .projects-slider
                                 .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
                                 .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
                                 .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
                                 .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
                                 .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
-                        .col.col-lg-1
+                        .col.col-lg-1.col-md-1.col-sm-2.col-2
                             a(href="#").slider-button.projects-slider-next-button
                                 img(src="assets/icons/black.svg")
 
         footer
             .container
                 .row
-                    .col.col-lg-3.offset-lg-1
+                    .col.col-lg-3.offset-lg-1.col-md-2.hide-on-mobile
                         .devider.white
+
+                    .col.col-lg-4.text-center.col-md-8.col-12
+                        img.logo(src="assets/images/logo-full.svg")
+
+                    .col.col-sm-12.col-12.show-only-mobile.text-center
+                        .devider.white.no-margin
+
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-12.col-12.hide-on-mobile
+                        .devider.white
+                .row
+                    .col.col-lg-3.offset-lg-1.col-md-6
                         ul.menu
                             li
                                 a(href="#") Главная
@@ -426,8 +458,11 @@ html(lang="ru")
                                 a(href="#") Мероприятия
                             li
                                 a(href="#") Членство
-                    .col.col-lg-4.text-center
-                        img(src="assets/images/logo-full.svg")
+
+                    .col.col-sm-12.col-12.show-only-mobile.text-center
+                        .devider.white.no-margin
+
+                    .col.col-lg-4.text-center.col-md-4.offset-md-4.order-md-3.order-sm-3.order-3
                         .social-buttons
                             button.btn.btn-primary.white.with-icons(type='button')
                                 img(src="assets/icons/fb.svg")
@@ -435,8 +470,8 @@ html(lang="ru")
                             button.btn.btn-primary.white.with-icons(type='button')
                                 img(src="assets/icons/linkedin.svg")
                                 span Linkedin
-                    .col.col-lg-3.offset-lg-1
-                        .devider.white
+
+                    .col.col-lg-3.offset-lg-1.col-md-6.order-md-2.order-sm-2.order-2
                         .contact-list-title Контакты
                         ul.contact-list
                             li
