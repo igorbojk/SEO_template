@@ -16,8 +16,18 @@ $( document ).ready(function() {
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        prevArrow: $('.prev'),
-        nextArrow: $('.next')
+        prevArrow: $('.advice-slider-prev-button'),
+        nextArrow: $('.advice-slider-next-button')
+    });
+
+    $('.projects-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        prevArrow: $('.projects-slider-prev-button'),
+        nextArrow: $('.projects-slider-next-button')
     });
 
 });

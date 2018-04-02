@@ -317,19 +317,136 @@ html(lang="ru")
                                         img(src='assets/images/board-1.jpg')
                                     .title Тарас Кириченко
                                     .desc председатель правления Правекс-Банка
-                        a(href="#").slider-button.slider-next-button.next
+                        a(href="#").slider-button.advice-slider-next-button
                             img(src="assets/icons/black.svg")
-                        a(href="#").slider-button.slider-next-button.prev
+                        a(href="#").slider-button.advice-slider-prev-button
                             img.rotate180(src="assets/icons/black.svg")
 
                     .text-center
                         button.btn.btn-primary(type='button') Присоединиться к клубу
 
             section.blog
-                h3 Блог клуба
+                .container
+                    h3 Блог клуба
+                    .blog-item
+                        .row
+                            .col.col-lg-3
+                                .info-container
+                                    .info
+                                        .date 28 марта 2018
+                                        .tags
+                                            span Рубрики:
+                                            a(href="#") Бизнес,
+                                            a(href="#") Культура,
+                                            a(href="#") Мероприятия
+                            .col.col-lg-6
+                                .title
+                                    a(href="#") Украине нужна коалиция реформаторов из государственного и частного секторов — Павло Шеремета
+                            .col.col-lg-3
+                                img(src="assets/images/blog1.jpg")
 
+                    .blog-item
+                        .row
+                            .col.col-lg-3
+                                .info-container
+                                    .info
+                                        .date 28 марта 2018
+                                        .tags
+                                            span Рубрики:
+                                            a(href="#") Бизнес,
+                                            a(href="#") Культура,
+                                            a(href="#") Мероприятия
+                            .col.col-lg-6
+                                .title
+                                    a(href="#") Заметки CEO Club: Партнёрство в бизнесе. Панельная дискуссия
+                            .col.col-lg-3
+                                img(src="assets/images/blog2.jpg")
 
+                    .blog-item
+                        .row
+                            .col.col-lg-3
+                                .info-container
+                                    .info
+                                        .date 28 марта 2018
+                                        .tags
+                                            span Рубрики:
+                                            a(href="#") Бизнес,
+                                            a(href="#") Tips from Tops,
+                                            a(href="#") Саморазвитие
+                            .col.col-lg-6
+                                .title
+                                    a(href="#") TIPS FROM TOPS: Ирина Папуша о саморазвитии
+                            .col.col-lg-3
+                                img(src="assets/images/blog3.jpg")
+                    .text-center.more-button-container
+                        button.btn.btn-primary(type='button') Читать больше
 
+            section.partners
+                .container
+                    h3 Партнеры клуба
+                    .flex-container
+                        .flex-33
+                        .flex-33
+                        .flex-33
+                        .flex-33
+                        .flex-33
+                        .flex-33
+
+            section.projects
+                .container
+                    h3 Проекты клуба
+                    .row
+                        .col.col-lg-1
+                            a(href="#").slider-button.projects-slider-prev-button
+                                img.rotate180(src="assets/icons/black.svg")
+                        .col.col-lg-10
+                            .projects-slider
+                                .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
+                                .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
+                                .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
+                                .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
+                                .test(style="width: 100px; height: 100px; background: lightgray; margin: 0 16px;")
+                        .col.col-lg-1
+                            a(href="#").slider-button.projects-slider-next-button
+                                img(src="assets/icons/black.svg")
+
+        footer
+            .container
+                .row
+                    .col.col-lg-3.offset-lg-1
+                        .devider.white
+                        ul.menu
+                            li
+                                a(href="#") Главная
+                            li
+                                a(href="#") Форматы
+                            li
+                                a(href="#") Блог
+                            li
+                                a(href="#") Мероприятия
+                            li
+                                a(href="#") Членство
+                    .col.col-lg-4.text-center
+                        img(src="assets/images/logo-full.svg")
+                        .social-buttons
+                            button.btn.btn-primary.white.with-icons(type='button')
+                                img(src="assets/icons/fb.svg")
+                                span Facebook
+                            button.btn.btn-primary.white.with-icons(type='button')
+                                img(src="assets/icons/linkedin.svg")
+                                span Linkedin
+                    .col.col-lg-3.offset-lg-1
+                        .devider.white
+                        .contact-list-title Контакты
+                        ul.contact-list
+                            li
+                                span +38 044 22 888 13
+                            li
+                                a(href="mailto:info@ceoclub.com.ua") info@ceoclub.com.ua
+                            li
+                                span Клубный дом CEO Club Ukraine:
+                                a(href="#") Украина, Киев, Бутышев переулок 23
+                .copyright &copy; CEO Club Ukraine
 
 
     script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
