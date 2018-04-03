@@ -207,12 +207,17 @@
             <h3 class="m-b-72">Некоторые события клубной жизни</h3>
             <div class="row">
               <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
-                <div id="carousel" data-ride="carousel" class="carousel slide carousel-fade bordered-block">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active"><img src="assets/images/sergey.jpg" alt="First slide" class="d-block w-100"/></div>
-                    <div class="carousel-item"><img src="assets/images/benefits.jpg" alt="Second slide" class="d-block w-100"/></div>
-                  </div><a href="#carousel" role="button" data-slide="prev" class="carousel-control-prev"><img src="assets/icons/white.svg" class="rotate180"/></a><a href="#carousel" role="button" data-slide="next" class="carousel-control-next"><img src="assets/icons/white.svg"/></a>
-                </div>
+                <div class="clubs-life-slider bordered-block"><img src="assets/images/sergey.jpg"/><img src="assets/images/benefits.jpg"/></div><a class="carousel-control-prev clubs-life-slider-prev"><img src="assets/icons/white.svg" class="rotate180"/></a><a class="carousel-control-nex clubs-life-slider-next"><img src="assets/icons/white.svg"/></a>
+                <!--#carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")-->
+                <!--    .carousel-inner-->
+                <!--        .carousel-item.active-->
+                <!--            img.d-block.w-100(src='assets/images/sergey.jpg', alt='First slide')-->
+                <!--        .carousel-item-->
+                <!--            img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')-->
+                <!--    a.carousel-control-prev(href='#carousel', role='button', data-slide='prev')-->
+                <!--        img.rotate180(src="assets/icons/white.svg")-->
+                <!--    a.carousel-control-next(href='#carousel', role='button', data-slide='next')-->
+                <!--        img(src="assets/icons/white.svg")-->
               </div>
               <div class="col col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="event-info">
@@ -449,14 +454,14 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col col-lg-3 offset-lg-1 col-md-2 hide-on-mobile">
+          <div class="col col-lg-3 offset-lg-1 col-md-2 col-sm-2 hide-on-mobile">
             <div class="devider white"></div>
           </div>
-          <div class="col col-lg-4 text-center col-md-8 col-12"><img src="assets/images/logo-full.svg" class="logo"/></div>
+          <div class="col col-lg-4 text-center col-md-8 col-sm-8 col-12"><img src="assets/images/logo-full.svg" class="logo"/></div>
           <div class="col col-sm-12 col-12 show-only-mobile text-center">
             <div class="devider white no-margin"></div>
           </div>
-          <div class="col col-lg-3 offset-lg-1 col-md-2 col-sm-12 col-12 hide-on-mobile">
+          <div class="col col-lg-3 offset-lg-1 col-md-2 col-sm-2 hide-on-mobile">
             <div class="devider white"></div>
           </div>
         </div>
@@ -473,6 +478,7 @@
           <div class="col col-sm-12 col-12 show-only-mobile text-center">
             <div class="devider white no-margin"></div>
           </div>
+          <div class="col col-md-3 col-3 offset-lg-1 hide-on-tablet"></div>
           <div class="col col-lg-4 text-center col-md-4 offset-md-4 order-md-3 order-sm-3 order-3">
             <div class="social-buttons">
               <button type="button" class="btn btn-primary white with-icons"><img src="assets/icons/fb.svg"/><span>Facebook</span></button>

@@ -84,6 +84,7 @@ html(lang="ru")
                         button.btn.btn-secondary(type='button') Подписаться на дайджест
                     img.banner(src="assets/images/video.png")
         main
+
             section.priorities
                 .container
                     h3 Что CEO Club Ukraine дает своим участникам:
@@ -208,16 +209,23 @@ html(lang="ru")
                         h3.m-b-72 Некоторые события клубной жизни
                         .row
                             .col.col-lg-6.col-md-12.col-sm-12.col-12
-                                #carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
-                                    .carousel-inner
-                                        .carousel-item.active
-                                            img.d-block.w-100(src='assets/images/sergey.jpg', alt='First slide')
-                                        .carousel-item
-                                            img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
-                                    a.carousel-control-prev(href='#carousel', role='button', data-slide='prev')
-                                        img.rotate180(src="assets/icons/white.svg")
-                                    a.carousel-control-next(href='#carousel', role='button', data-slide='next')
-                                        img(src="assets/icons/white.svg")
+                                .clubs-life-slider.bordered-block
+                                    img(src='assets/images/sergey.jpg')
+                                    img(src='assets/images/benefits.jpg')
+                                a.carousel-control-prev.clubs-life-slider-prev
+                                    img.rotate180(src="assets/icons/white.svg")
+                                a.carousel-control-nex.clubs-life-slider-next
+                                    img(src="assets/icons/white.svg")
+                                //#carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
+                                //    .carousel-inner
+                                //        .carousel-item.active
+                                //            img.d-block.w-100(src='assets/images/sergey.jpg', alt='First slide')
+                                //        .carousel-item
+                                //            img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
+                                //    a.carousel-control-prev(href='#carousel', role='button', data-slide='prev')
+                                //        img.rotate180(src="assets/icons/white.svg")
+                                //    a.carousel-control-next(href='#carousel', role='button', data-slide='next')
+                                //        img(src="assets/icons/white.svg")
                             .col.col-lg-6.col-md-12.col-sm-12.col-12
                                 .event-info
                                     .info-container
@@ -434,16 +442,16 @@ html(lang="ru")
         footer
             .container
                 .row
-                    .col.col-lg-3.offset-lg-1.col-md-2.hide-on-mobile
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-2.hide-on-mobile
                         .devider.white
 
-                    .col.col-lg-4.text-center.col-md-8.col-12
+                    .col.col-lg-4.text-center.col-md-8.col-sm-8.col-12
                         img.logo(src="assets/images/logo-full.svg")
 
                     .col.col-sm-12.col-12.show-only-mobile.text-center
                         .devider.white.no-margin
 
-                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-12.col-12.hide-on-mobile
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-2.hide-on-mobile
                         .devider.white
                 .row
                     .col.col-lg-3.offset-lg-1.col-md-6
@@ -461,6 +469,8 @@ html(lang="ru")
 
                     .col.col-sm-12.col-12.show-only-mobile.text-center
                         .devider.white.no-margin
+
+                    .col.col-md-3.col-3.offset-lg-1.hide-on-tablet
 
                     .col.col-lg-4.text-center.col-md-4.offset-md-4.order-md-3.order-sm-3.order-3
                         .social-buttons

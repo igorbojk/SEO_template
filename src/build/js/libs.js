@@ -15,6 +15,17 @@ $( document ).ready(function() {
         $(this).ekkoLightbox();
     });
 
+    $('.clubs-life-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        dots: false,
+        arrows: true,
+        prevArrow: $('.clubs-life-slider-prev'),
+        nextArrow: $('.clubs-life-slider-next')
+    });
+
     $('.advice-slider').slick({
         infinite: false,
         slidesToShow: 4,

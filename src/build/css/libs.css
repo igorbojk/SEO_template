@@ -229,6 +229,10 @@ h6 {
   .hide-on-mobile {
     display: none; } }
 
+@media (max-width: 992px) {
+  .hide-on-tablet {
+    display: none; } }
+
 .show-only-mobile {
   display: none; }
   @media (max-width: 576px) {
@@ -805,6 +809,10 @@ h6 {
   .hide-on-mobile {
     display: none; } }
 
+@media (max-width: 992px) {
+  .hide-on-tablet {
+    display: none; } }
+
 .show-only-mobile {
   display: none; }
   @media (max-width: 576px) {
@@ -1002,11 +1010,11 @@ h6 {
     @media (max-width: 992px) {
       .priorities h3 {
         margin-bottom: 40px; } }
-  .priorities .carousel-fade {
+  .priorities .carousel {
     margin-bottom: 100px; }
-    .priorities .carousel-fade .carousel-inner {
+    .priorities .carousel .carousel-inner {
       overflow: visible; }
-    .priorities .carousel-fade .carousel-item .annotation-container {
+    .priorities .carousel .carousel-item .annotation-container {
       position: absolute;
       top: 0;
       right: 0;
@@ -1028,13 +1036,13 @@ h6 {
           -ms-flex-pack: end;
               justify-content: flex-end; }
       @media (max-width: 992px) {
-        .priorities .carousel-fade .carousel-item .annotation-container {
+        .priorities .carousel .carousel-item .annotation-container {
           -webkit-box-align: end;
           -webkit-align-items: flex-end;
              -moz-box-align: end;
               -ms-flex-align: end;
                   align-items: flex-end; } }
-      .priorities .carousel-fade .carousel-item .annotation-container .annotation {
+      .priorities .carousel .carousel-item .annotation-container .annotation {
         width: 540px;
         height: 280px;
         position: relative;
@@ -1057,11 +1065,11 @@ h6 {
                 align-items: center;
         padding: 0 40px 0 75px; }
         @media (max-width: 992px) {
-          .priorities .carousel-fade .carousel-item .annotation-container .annotation {
+          .priorities .carousel .carousel-item .annotation-container .annotation {
             right: -20px;
             height: 226px;
             width: 409px; } }
-        .priorities .carousel-fade .carousel-item .annotation-container .annotation .counter {
+        .priorities .carousel .carousel-item .annotation-container .annotation .counter {
           position: absolute;
           left: 40px;
           top: 0;
@@ -1075,9 +1083,9 @@ h6 {
           text-align: center;
           color: #eff0f0; }
           @media (max-width: 992px) {
-            .priorities .carousel-fade .carousel-item .annotation-container .annotation .counter {
+            .priorities .carousel .carousel-item .annotation-container .annotation .counter {
               font-size: 128px; } }
-        .priorities .carousel-fade .carousel-item .annotation-container .annotation span {
+        .priorities .carousel .carousel-item .annotation-container .annotation span {
           font-size: 18px;
           font-weight: normal;
           font-style: normal;
@@ -1088,24 +1096,24 @@ h6 {
           color: #26282b;
           position: relative; }
           @media (max-width: 992px) {
-            .priorities .carousel-fade .carousel-item .annotation-container .annotation span {
+            .priorities .carousel .carousel-item .annotation-container .annotation span {
               font-size: 16px; } }
-      .priorities .carousel-fade .carousel-item .annotation-container .slider-controls {
+      .priorities .carousel .carousel-item .annotation-container .slider-controls {
         position: absolute;
         right: 0;
         bottom: -72px; }
         @media (max-width: 992px) {
-          .priorities .carousel-fade .carousel-item .annotation-container .slider-controls {
+          .priorities .carousel .carousel-item .annotation-container .slider-controls {
             bottom: -56px; } }
-        .priorities .carousel-fade .carousel-item .annotation-container .slider-controls .carousel-control-next,
-        .priorities .carousel-fade .carousel-item .annotation-container .slider-controls .carousel-control-prev {
+        .priorities .carousel .carousel-item .annotation-container .slider-controls .carousel-control-next,
+        .priorities .carousel .carousel-item .annotation-container .slider-controls .carousel-control-prev {
           position: static;
           display: -webkit-inline-box;
           display: -webkit-inline-flex;
           display: -moz-inline-box;
           display: -ms-inline-flexbox;
           display: inline-flex; }
-        .priorities .carousel-fade .carousel-item .annotation-container .slider-controls .carousel-control-prev {
+        .priorities .carousel .carousel-item .annotation-container .slider-controls .carousel-control-prev {
           margin-right: 1px; }
   .priorities #mobileCarousel {
     display: none;
