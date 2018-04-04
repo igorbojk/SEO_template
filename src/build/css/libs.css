@@ -925,10 +925,10 @@ h6 {
     left: 0;
     right: 0;
     background: #ffffff;
-    -webkit-transition: height .8s;
-    -o-transition: height .8s;
-    -moz-transition: height .8s;
-    transition: height .8s; }
+    -webkit-transition: height .7s;
+    -o-transition: height .7s;
+    -moz-transition: height .7s;
+    transition: height .7s; }
   .header-animated-text.active {
     margin-bottom: 220px; }
     .header-animated-text.active:before {

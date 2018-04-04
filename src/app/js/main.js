@@ -134,11 +134,11 @@ $( document ).ready(function() {
 
     setTimeout(function() {
         $('.preloader').addClass('fadeOut');
-    }, 1800);
+    }, 1750);
 
     setTimeout(function() {
         $('.preloader').addClass('display-none');
-        $('body').removeClass('no-scroll');
+        // $('body').removeClass('no-scroll');
     }, 2200);
 
 
