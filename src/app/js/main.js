@@ -100,7 +100,10 @@ $( document ).ready(function() {
         ]
     });
 
-    window.onscroll=function(){window.scrollTo(0, 0);};
+    window.onscroll=function(){
+        console.log('no-scroll');
+        window.scrollTo(0, 0);
+    };
 
     setTimeout(function() {
         $('.preloader').addClass('loaded');

@@ -281,6 +281,18 @@ h6 {
     .show-only-mobile {
       display: inline-block; } }
 
+.opacity-animation {
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  transition: opacity .5s; }
+  .opacity-animation.active {
+    opacity: 1; }
+
+.scrollmagic-pin-spacer {
+  min-height: 20px !important; }
+
 /**
  * modified version of eric meyer's reset 2.0
  * http://meyerweb.com/eric/tools/css/reset/
@@ -902,6 +914,18 @@ h6 {
   @media (max-width: 576px) {
     .show-only-mobile {
       display: inline-block; } }
+
+.opacity-animation {
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  transition: opacity .5s; }
+  .opacity-animation.active {
+    opacity: 1; }
+
+.scrollmagic-pin-spacer {
+  min-height: 20px !important; }
 
 .no-scroll {
   overflow: hidden; }

@@ -234,3 +234,13 @@ h6
     display: none
     @media (max-width: 576px)
         display: inline-block
+
+.opacity-animation
+    opacity: 0
+    transition: opacity .5s
+    &.active
+        opacity: 1
+
+//fix to scroll-magic spacer
+.scrollmagic-pin-spacer
+    min-height: 20px !important
