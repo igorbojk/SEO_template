@@ -29,6 +29,17 @@ $( document ).ready(function() {
         $(this).ekkoLightbox();
     });
 
+    $('.club-house-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        dots: false,
+        arrows: true,
+        prevArrow: $('.club-house-slider-container .carousel-control-prev'),
+        nextArrow: $('.club-house-slider-container .carousel-control-next')
+    });
+
     $('.clubs-life-slider').slick({
         infinite: false,
         slidesToShow: 1,

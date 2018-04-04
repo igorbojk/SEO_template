@@ -219,21 +219,19 @@ html(lang="ru")
                             span ПОДРОБНЕЕ О Жизни Клуба
 
             section.club-house
-                #carouselClubHouse.carousel.slide.carousel-fade(data-ride="carousel")
-                    .carousel-inner
-                        .carousel-item.active
+                .club-house-slider-container
+                    .club-house-slider
+                        .slide
                             a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
                                 img(src="assets/icons/expand.svg")
-                            img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
-                        .carousel-item
+                            img(src='assets/images/house.jpg', alt='First slide')
+                        .slide
                             a.full-screen(href='assets/images/house.jpg' data-toggle="lightbox" data-gallery="mixedgallery")
                                 img(src="assets/icons/expand.svg")
-                            img.d-block.w-100(src='assets/images/house.jpg', alt='First slide')
-
-
-                    a.carousel-control-prev(href='#carouselClubHouse', role='button', data-slide='prev')
+                            img(src='assets/images/house.jpg', alt='First slide')
+                    a.carousel-control-prev
                         img.rotate180(src="assets/icons/black.svg")
-                    a.carousel-control-next(href='#carouselClubHouse', role='button', data-slide='next')
+                    a.carousel-control-next
                         img(src="assets/icons/black.svg")
                 .container
                     .house-info.bordered-block
@@ -487,7 +485,7 @@ html(lang="ru")
                 .copyright &copy; CEO Club Ukraine
 
 
-    script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
     script(src="js/bootstrap.min.js")
     script(src="js/ekko-lightbox.min.js")

@@ -1511,24 +1511,28 @@ h6 {
 
 .club-house {
   background: #eff0f0; }
-  .club-house .carousel-fade .carousel-control-prev,
-  .club-house .carousel-fade .carousel-control-next {
-    background: none;
-    top: 50%;
-    margin-top: -20px;
-    width: 40px;
-    height: 40px; }
-  .club-house .carousel-fade .carousel-control-prev {
-    left: 68px; }
-  .club-house .carousel-fade .carousel-control-next {
-    right: 68px; }
-  .club-house .carousel-fade .full-screen {
-    position: absolute;
-    right: 68px;
-    top: 40px; }
-    @media (max-width: 992px) {
-      .club-house .carousel-fade .full-screen {
-        display: none; } }
+  .club-house .club-house-slider-container {
+    position: relative; }
+    .club-house .club-house-slider-container img {
+      width: 100%; }
+    .club-house .club-house-slider-container .carousel-control-prev,
+    .club-house .club-house-slider-container .carousel-control-next {
+      background: none;
+      top: 50%;
+      margin-top: -20px;
+      width: 40px;
+      height: 40px; }
+    .club-house .club-house-slider-container .carousel-control-prev {
+      left: 68px; }
+    .club-house .club-house-slider-container .carousel-control-next {
+      right: 68px; }
+    .club-house .club-house-slider-container .full-screen {
+      position: absolute;
+      right: 68px;
+      top: 40px; }
+      @media (max-width: 992px) {
+        .club-house .club-house-slider-container .full-screen {
+          display: none; } }
   .club-house .house-info {
     width: 100%;
     max-width: 560px;
