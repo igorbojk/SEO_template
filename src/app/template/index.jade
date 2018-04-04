@@ -90,50 +90,29 @@ html(lang="ru")
                     h3 Что CEO Club Ukraine дает своим участникам:
                     .row
                         .col.col-lg-10
-                            #carouselExampleControls.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
-                                .carousel-inner
-                                    .carousel-item.active
-                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
-                                        .annotation-container
-                                            .annotation
-                                                .counter 1
-                                                span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
-                                                .slider-controls
-                                                    a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
-                                                        img.rotate180(src="assets/icons/white.svg")
-                                                    a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
-                                                        img(src="assets/icons/white.svg")
-                                    .carousel-item
-                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
-                                        .annotation-container
-                                            .annotation
-                                                .counter 2
-                                                span  Еще один текст
-                                                .slider-controls
-                                                    a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
-                                                        img.rotate180(src="assets/icons/white.svg")
-                                                    a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
-                                                        img(src="assets/icons/white.svg")
-                            #mobileCarousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
-                                .carousel-inner
-                                    .carousel-item.active
-                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='First slide')
-                                        .annotation-container
-                                            .annotation
-                                                .counter 1
-                                                span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
-
-                                    .carousel-item
-                                        img.d-block.w-100(src='assets/images/benefits.jpg', alt='Second slide')
-                                        .annotation-container
-                                            .annotation
-                                                .counter 2
-                                                span  Еще один текст
-                                .slider-controls
-                                    a.carousel-control-prev(href='#mobileCarousel', role='button', data-slide='prev')
-                                        img.rotate180(src="assets/icons/white.svg")
-                                    a.carousel-control-next(href='#mobileCarousel', role='button', data-slide='next')
-                                        img(src="assets/icons/white.svg")
+                            .sliders-container
+                                .bordered-block.slider-carousel-container
+                                    .priorities-image-slider
+                                        img(src='assets/images/benefits.jpg')
+                                        img(src='assets/images/benefits.jpg')
+                                    .slider-controls
+                                        a.carousel-control-prev
+                                            img.rotate180(src="assets/icons/white.svg")
+                                        a.carousel-control-next
+                                            img(src="assets/icons/white.svg")
+                                .annotation-slider-container.slider-carousel-container
+                                    .annotation-slider
+                                        .annotation
+                                            .counter 1
+                                            span Участие в крупнейшем закрытом клубе первых лиц компаний среднего и большого бизнеса
+                                        .annotation
+                                            .counter 2
+                                            span  Еще один текст
+                                    .slider-controls
+                                        a.carousel-control-prev
+                                            img.rotate180(src="assets/icons/white.svg")
+                                        a.carousel-control-next
+                                            img(src="assets/icons/white.svg")
             section.principles
                 .container
                     h3 Наши принципы
@@ -209,13 +188,14 @@ html(lang="ru")
                         h3.m-b-72 Некоторые события клубной жизни
                         .row
                             .col.col-lg-6.col-md-12.col-sm-12.col-12
-                                .clubs-life-slider.bordered-block
-                                    img(src='assets/images/sergey.jpg')
-                                    img(src='assets/images/benefits.jpg')
-                                a.carousel-control-prev.clubs-life-slider-prev
-                                    img.rotate180(src="assets/icons/white.svg")
-                                a.carousel-control-nex.clubs-life-slider-next
-                                    img(src="assets/icons/white.svg")
+                                .slider-carousel-container
+                                    .clubs-life-slider.bordered-block
+                                        img(src='assets/images/sergey.jpg')
+                                        img(src='assets/images/benefits.jpg')
+                                    a.carousel-control-prev.clubs-life-slider-prev
+                                        img.rotate180(src="assets/icons/white.svg")
+                                    a.carousel-control-next.clubs-life-slider-next
+                                        img(src="assets/icons/white.svg")
                                 //#carousel.carousel.slide.carousel-fade.bordered-block(data-ride="carousel")
                                 //    .carousel-inner
                                 //        .carousel-item.active

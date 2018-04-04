@@ -78,6 +78,8 @@ h6
         &:hover,&:not(:disabled):not(.disabled):active
             img
                 filter: invert(100%)
+    @media (max-width: 576px)
+        width: 272px
 
 .btn-primary
     border: solid 1px $primary
@@ -137,9 +139,12 @@ h6
          width: 100%
          border: solid 1px #26282b
          box-sizing: border-box
+         @media (max-width: 576px)
+             left: 4px
+             top: 4px
 
-.carousel-fade
-    .carousel-inner
+.slider-carousel-container
+    .slick-list
         z-index: 3
     .carousel-control-next,
     .carousel-control-prev
@@ -150,6 +155,7 @@ h6
         opacity: 1
         &:hover
             background: $text
+            cursor: pointer
         @media (max-width: 992px)
             width: 56px
             height: 56px

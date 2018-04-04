@@ -155,8 +155,6 @@
 .priorities
     padding-top: 280px
     background-color: #eff0f0
-    @media (max-width: 576px)
-        padding-bottom: 250px
     h3
         text-align: center
         margin-bottom: 60px
@@ -164,101 +162,108 @@
         width: 100%
         @media (max-width: 992px)
             margin-bottom: 40px
-    .carousel
+    .sliders-container
         margin-bottom: 100px
-        .carousel-inner
-            overflow: visible
-        .carousel-item
-            .annotation-container
-                position: absolute
-                top: 0
-                right: 0
-                left: 0
-                bottom: 0
-                display: flex
-                align-items: center
-                justify-content: flex-end
-                @media (max-width: 992px)
-                    align-items: flex-end
-                .annotation
-                    width: 540px
-                    height: 280px
-                    position: relative
-                    right: -145px
-                    background-color: $white
-                    display: flex
-                    justify-content: center
-                    align-items: center
-                    padding: 0 40px 0 75px
-                    @media (max-width: 992px)
-                        right: -20px
-                        height: 226px
-                        width: 409px
-                    .counter
-                        position: absolute
-                        left: 40px
-                        top: 0
-                        font-family: 'Playfair Display', serif
-                        font-size: 168px
-                        font-weight: 900
-                        font-style: normal
-                        font-stretch: normal
-                        line-height: .6
-                        letter-spacing: normal
-                        text-align: center
-                        color: #eff0f0
-                        @media (max-width: 992px)
-                            font-size: 128px
-                    span
-                        font-size: 18px
-                        font-weight: normal
-                        font-style: normal
-                        font-stretch: normal
-                        line-height: 1.78
-                        letter-spacing: 0.7px
-                        text-align: left
-                        color: $text
-                        position: relative
-                        @media (max-width: 992px)
-                            font-size: 16px
-                .slider-controls
-                    position: absolute
-                    right: 0
-                    bottom: -72px
-                    @media (max-width: 992px)
-                        bottom: -56px
-                    .carousel-control-next,
-                    .carousel-control-prev
-                        position: static
-                        display: inline-flex
-                    .carousel-control-prev
-                        margin-right: 1px
-    #mobileCarousel
-        display: none
-        margin-left: 20px
-        .annotation-container .annotation
-            position: absolute
-            bottom: -250px
-            padding: 0
-            right: 0
-            background: none
-            left: 0
-            width: 100%
-            .counter
-                color: #dde0e0
+        position: relative
         .slider-controls
-            a
-                top: 50%
-                margin-top: -20px
+            position: absolute
+            right: 0
+            bottom: -72px
+            @media (max-width: 992px)
+                bottom: -56px
+            .carousel-control-next,
             .carousel-control-prev
-                left: -20px
-            .carousel-control-next
-                right: -20px
-        @media (max-width: 576px)
-            display: block
-    #carouselExampleControls
-        @media (max-width: 576px)
-            display: none
+                position: static
+                display: inline-flex
+            .carousel-control-prev
+                margin-right: 1px
+        .bordered-block
+            .slider-controls
+                display: none
+            @media (max-width: 768px)
+                margin-left: 20px
+                .slider-controls
+                    display: flex
+                    z-index: 3
+                    bottom: inherit
+                    top: 50%
+                    height: 56px
+                    margin-top: -28px
+                    width: 100%
+                    justify-content: space-between
+                    .carousel-control-prev
+                        margin-left: -28px
+                    .carousel-control-next
+                        margin-right: -28px
+        .priorities-image-slider
+            z-index: 3
+        .annotation-slider-container
+            width: 540px
+            position: absolute
+            top: 50%
+            z-index: 5
+            right: -125px
+            margin-top: -140px
+            height: 280px
+            @media (max-width: 992px)
+                right: 0
+                bottom: 0
+                height: 226px
+                width: 409px
+                margin: 0
+                top: inherit
+            @media (max-width: 768px)
+                position: static
+                padding-top: 24px
+                width: 100%
+                height: auto
+                .slider-controls
+                    display: none
+            .annotation
+                height: 280px
+                position: relative
+                background-color: $white
+                display: flex
+                justify-content: center
+                align-items: center
+                padding: 0 40px 0 75px
+                @media (max-width: 992px)
+                    height: 226px
+                @media (max-width: 768px)
+                    background: none
+                    padding: 16px
+                    height: auto
+                .counter
+                    position: absolute
+                    left: 40px
+                    top: 0
+                    font-family: 'Playfair Display', serif
+                    font-size: 168px
+                    font-weight: 900
+                    font-style: normal
+                    font-stretch: normal
+                    line-height: .6
+                    letter-spacing: normal
+                    text-align: center
+                    color: #eff0f0
+                    @media (max-width: 992px)
+                        font-size: 128px
+                    @media (max-width: 768px)
+                        color: #e7e8e8
+                span
+                    font-size: 18px
+                    font-weight: normal
+                    font-style: normal
+                    font-stretch: normal
+                    line-height: 1.78
+                    letter-spacing: 0.7px
+                    text-align: left
+                    color: $text
+                    position: relative
+                    @media (max-width: 992px)
+                        font-size: 16px
+
+
 .principles
     h3
         margin-top: 80px
@@ -329,19 +334,27 @@
         margin-bottom: 24px
         &.m-b-72
             margin-bottom: 72px
-    .carousel-fade
-        margin-left: 36px
-        @media (max-width: 992px)
-            margin-right: 36px
-            margin-bottom: 40px
+    .slider-carousel-container
+        .clubs-life-slider
+            margin-left: 36px
+            @media (max-width: 992px)
+                margin-right: 36px
+                margin-bottom: 40px
+            @media (max-width: 576px)
+                margin-left: 0
+                margin-right: 8px
         .carousel-control-prev
             top: 50%
             margin-top: -36px
-            left: -36px
+            left: 17px
+            @media (max-width: 576px)
+                left: 7px
         .carousel-control-next
             top: 50%
             margin-top: -36px
-            right: -36px
+            right: 17px
+            @media (max-width: 576px)
+                right: 7px
     .event-info
         text-align: left
         padding-left: 48px
@@ -741,6 +754,9 @@
     .slider-button
         display: flex
         height: 100%
+        @media (max-width: 576px)
+            img
+                width: 32px
 
 footer
     background: #26282b
