@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="train" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="black" transform="translate(16.000000, 11.000000) rotate(180.000000) translate(-16.000000, -11.000000) " fill="#26282B" fill-rule="nonzero">
+            <polygon id="Shape" points="27.58 12 19.293 20.293 20.707 21.707 31.414 10.993 20.721 0.293 19.307 1.707 27.594 10 0.496 10 0.496 12"></polygon>
+        </g>
+    </g>
+</svg>

@@ -245,6 +245,8 @@
 .priorities
     padding-top: 280px
     background-color: #eff0f0
+    @media (max-width: 576px)
+        padding-top: 140px
     h3
         text-align: center
         margin-bottom: 60px
@@ -486,15 +488,42 @@
             width: 100%
         .carousel-control-prev,
         .carousel-control-next
-            background: none
-            top: 50%
-            margin-top: -20px
-            width: 40px
-            height: 40px
+            width: auto
+            height: auto
+            margin: 0
+            position: absolute
+            top: 0
+            bottom: 0
+            img
+                display: none
         .carousel-control-prev
-            left: 68px
+            left: 0
+            right: 50%
+            &:hover
+                cursor:  url(../assets/icons/black-rotate.svg) 4 12, auto
         .carousel-control-next
-            right: 68px
+            right: 0
+            left: 50%
+            &:hover
+                cursor:  url(../assets/icons/black.svg) 4 12, auto
+        @media (max-width: 1280px)
+            .carousel-control-prev,
+            .carousel-control-next
+                background: none
+                top: 50%
+                margin-top: -20px
+                width: 40px
+                height: 40px
+                left: auto
+                right: auto
+                &:hover
+                    cursor: auto !important
+                img
+                    display: block
+            .carousel-control-prev
+                left: 68px
+            .carousel-control-next
+                right: 68px
         .full-screen
             position: absolute
             right: 68px
@@ -507,6 +536,8 @@
         margin-top: -240px
         @media (max-width: 992px)
             margin-top: -140px
+        @media (max-width: 576px)
+            margin-top: -32px
         .content
             background: $white
             padding: 40px
@@ -859,6 +890,8 @@
                 max-width: 320px
                 max-height: 100%
                 filter: grayscale(100%)
+                @media (max-width: 992px)
+                    max-width: 100%
             @media (max-width: 576px)
                 flex: 1 1 50%
                 max-width: calc( 50% - 32px)
