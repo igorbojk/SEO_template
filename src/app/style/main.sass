@@ -352,7 +352,9 @@
         .carousel-control-next
             top: 50%
             margin-top: -36px
-            right: 17px
+            right: 7px
+            @media (max-width: 992px)
+                right: 17px
             @media (max-width: 576px)
                 right: 7px
     .event-info
@@ -617,6 +619,16 @@
         margin-bottom: 16px
         display: flex
         height: 200px
+        &:hover
+            .right-block:before
+                content: ''
+                background: rgba(0, 0, 0, 0.2)
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                z-index: 5
+                position: absolute
         @media (max-width: 992px)
             height: 220px
         @media (max-width: 576px)
@@ -633,6 +645,7 @@
                 flex: 1 1 100%
                 max-width: 100%
         .right-block
+            position: relative
             flex: 1 1 30%
             max-width: 30%
             @media (max-width: 576px)
@@ -739,10 +752,20 @@
         .flex-33
             flex: 1 1 33%
             max-width: calc( 33.33333% - 32px)
-            background: greenyellow
             margin: 16px
-            height: 50px
             box-sizing: border-box
+            display: flex
+            align-items: center
+            justify-content: center
+            &:hover
+                img
+                    filter: none
+            img
+                width: auto
+                height: auto
+                max-width: 320px
+                max-height: 100%
+                filter: grayscale(100%)
             @media (max-width: 576px)
                 flex: 1 1 50%
                 max-width: calc( 50% - 32px)
@@ -757,7 +780,12 @@
         @media (max-width: 576px)
             img
                 width: 32px
-
+    .projects-slider
+        img
+            margin: 16px
+            filter: grayscale(100%)
+            &:hover
+                filter: none
 footer
     background: #26282b
     padding-top: 80px

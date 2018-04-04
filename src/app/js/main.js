@@ -69,11 +69,12 @@ $( document ).ready(function() {
     });
 
     $('.advice-slider').slick({
-        infinite: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
         arrows: true,
+        infinite: true,
+        centerMode: true,
         prevArrow: $('.advice-slider-prev-button'),
         nextArrow: $('.advice-slider-next-button'),
         responsive: [

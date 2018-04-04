@@ -1272,7 +1272,10 @@ h6 {
   .clubs-life .slider-carousel-container .carousel-control-next {
     top: 50%;
     margin-top: -36px;
-    right: 17px; }
+    right: 7px; }
+    @media (max-width: 992px) {
+      .clubs-life .slider-carousel-container .carousel-control-next {
+        right: 17px; } }
     @media (max-width: 576px) {
       .clubs-life .slider-carousel-container .carousel-control-next {
         right: 7px; } }
@@ -1567,6 +1570,15 @@ h6 {
     display: -ms-flexbox;
     display: flex;
     height: 200px; }
+    .blog .blog-item:hover .right-block:before {
+      content: '';
+      background: rgba(0, 0, 0, 0.2);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+      position: absolute; }
     @media (max-width: 992px) {
       .blog .blog-item {
         height: 220px; } }
@@ -1611,6 +1623,7 @@ h6 {
                   flex: 1 1 100%;
           max-width: 100%; } }
     .blog .blog-item .right-block {
+      position: relative;
       -webkit-box-flex: 1;
       -webkit-flex: 1 1 30%;
          -moz-box-flex: 1;
@@ -1796,12 +1809,35 @@ h6 {
       max-width: -webkit-calc( 33.33333% - 32px);
       max-width: -moz-calc( 33.33333% - 32px);
       max-width: calc( 33.33333% - 32px);
-      background: greenyellow;
       margin: 16px;
-      height: 50px;
       -webkit-box-sizing: border-box;
          -moz-box-sizing: border-box;
-              box-sizing: border-box; }
+              box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .partners .flex-container .flex-33:hover img {
+        -webkit-filter: none;
+                filter: none; }
+      .partners .flex-container .flex-33 img {
+        width: auto;
+        height: auto;
+        max-width: 320px;
+        max-height: 100%;
+        -webkit-filter: grayscale(100%);
+                filter: grayscale(100%); }
       @media (max-width: 576px) {
         .partners .flex-container .flex-33 {
           -webkit-box-flex: 1;
@@ -1827,6 +1863,13 @@ h6 {
     @media (max-width: 576px) {
       .projects .slider-button img {
         width: 32px; } }
+  .projects .projects-slider img {
+    margin: 16px;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%); }
+    .projects .projects-slider img:hover {
+      -webkit-filter: none;
+              filter: none; }
 
 footer {
   background: #26282b;
