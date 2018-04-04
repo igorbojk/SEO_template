@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3ba5da55-bec8-4bdd-b104-6529e539451b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/main.js" afterPath="$PROJECT_DIR$/src/app/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/src/app/style/main-styles.sass" afterPath="$PROJECT_DIR$/src/app/style/main-styles.sass" />
       <change beforePath="$PROJECT_DIR$/src/app/template/index.jade" afterPath="$PROJECT_DIR$/src/app/template/index.jade" />
+      <change beforePath="$PROJECT_DIR$/src/build/css/libs.css" afterPath="$PROJECT_DIR$/src/build/css/libs.css" />
+      <change beforePath="$PROJECT_DIR$/src/build/css/libs.min.css" afterPath="$PROJECT_DIR$/src/build/css/libs.min.css" />
       <change beforePath="$PROJECT_DIR$/src/build/index.html" afterPath="$PROJECT_DIR$/src/build/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/build/js/libs.js" afterPath="$PROJECT_DIR$/src/build/js/libs.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="26" />
+            <state relative-caret-position="295">
+              <caret line="479" column="30" lean-forward="true" selection-start-line="479" selection-start-column="30" selection-end-line="479" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -53,9 +54,11 @@
       <file leaf-file-name="libs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/build/css/libs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
-              <caret line="236" column="3" lean-forward="false" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="4035">
+              <caret line="269" column="3" lean-forward="false" selection-start-line="269" selection-start-column="3" selection-end-line="269" selection-end-column="3" />
+              <folding>
+                <marker date="1522839584270" expanded="true" signature="1101:1500" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-styles.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main-styles.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="127" column="12" lean-forward="true" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+            <state relative-caret-position="396">
+              <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -90,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -104,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="476" column="81" lean-forward="false" selection-start-line="476" selection-start-column="81" selection-end-line="476" selection-end-column="81" />
+              <caret line="476" column="172" lean-forward="false" selection-start-line="476" selection-start-column="172" selection-end-line="476" selection-end-column="172" />
               <folding />
             </state>
           </provider>
@@ -121,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.navbar-collapse</find>
       <find>665</find>
       <find>mobile</find>
       <find>prior</find>
@@ -151,6 +153,7 @@
       <find>video</find>
       <find>part</find>
       <find>jqu</find>
+      <find>.btn</find>
     </findStrings>
     <replaceStrings>
       <replace>$text</replace>
@@ -171,11 +174,11 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/app/style/colors.sass" />
         <option value="$PROJECT_DIR$/src/build/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
         <option value="$PROJECT_DIR$/src/app/style/main.sass" />
-        <option value="$PROJECT_DIR$/src/app/template/index.jade" />
         <option value="$PROJECT_DIR$/src/build/index.html" />
         <option value="$PROJECT_DIR$/src/app/js/main.js" />
+        <option value="$PROJECT_DIR$/src/app/template/index.jade" />
+        <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
       </list>
     </option>
   </component>
@@ -338,12 +341,12 @@
       <workItem from="1522648862427" duration="26971000" />
       <workItem from="1522751420751" duration="19000" />
       <workItem from="1522751775579" duration="1172000" />
-      <workItem from="1522821780021" duration="14735000" />
+      <workItem from="1522821780021" duration="15667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67345000" />
+    <option name="totallyTimeSpent" value="68277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="24" width="1926" height="1058" extended-state="6" />
@@ -449,7 +452,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522839584270" expanded="true" signature="1101:1500" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -521,7 +526,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1522839584270" expanded="true" signature="1101:1500" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,9 +731,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/build/css/libs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="236" column="3" lean-forward="false" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="4035">
+          <caret line="269" column="3" lean-forward="false" selection-start-line="269" selection-start-column="3" selection-end-line="269" selection-end-column="3" />
+          <folding>
+            <marker date="1522839584270" expanded="true" signature="1101:1500" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,14 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="127" column="12" lean-forward="true" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -754,18 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="476" column="81" lean-forward="false" selection-start-line="476" selection-start-column="81" selection-end-line="476" selection-end-column="81" />
+          <caret line="476" column="172" lean-forward="false" selection-start-line="476" selection-start-column="172" selection-end-line="476" selection-end-column="172" />
           <folding />
         </state>
       </provider>
@@ -774,6 +767,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="479" column="30" lean-forward="true" selection-start-line="479" selection-start-column="30" selection-end-line="479" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
           <folding />
         </state>
       </provider>

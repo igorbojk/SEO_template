@@ -72,7 +72,32 @@ h6 {
   padding: 16px 0;
   outline: 0 !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important; }
+          box-shadow: none !important;
+  overflow: hidden;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+  position: relative; }
+  .btn:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    bottom: 0;
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+       -moz-transform: skewX(15deg);
+        -ms-transform: skewX(15deg);
+         -o-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: 1; }
+  .btn:hover:after {
+    width: 120%; }
   .btn.with-icons {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -90,10 +115,14 @@ h6 {
         -ms-flex-pack: center;
             justify-content: center; }
     .btn.with-icons img {
+      z-index: 2;
       margin-right: 26px; }
     .btn.with-icons:hover img, .btn.with-icons:not(:disabled):not(.disabled):active img {
       -webkit-filter: invert(100%);
               filter: invert(100%); }
+  .btn span {
+    position: relative;
+    z-index: 2; }
   @media (max-width: 576px) {
     .btn {
       width: 272px; } }
@@ -102,21 +131,26 @@ h6 {
   border: solid 1px #033f72;
   color: #033f72; }
   .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
-    background: #033f72;
+    background: none;
     color: #ffffff; }
+    .btn-primary:hover:after, .btn-primary:not(:disabled):not(.disabled):active:after {
+      background: #033f72; }
   .btn-primary.white {
     border-color: #ffffff;
     color: #ffffff; }
     .btn-primary.white:hover, .btn-primary.white:not(:disabled):not(.disabled):active {
-      background: #ffffff;
       color: #26282b; }
+      .btn-primary.white:hover:after, .btn-primary.white:not(:disabled):not(.disabled):active:after {
+        background: #ffffff; }
 
 .btn-secondary {
   border: solid 1px #c0a266;
   color: #ffffff;
   background: #c0a266; }
   .btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled):active {
-    background: #26282b; }
+    background: #c0a266; }
+    .btn-secondary:hover:after, .btn-secondary:not(:disabled):not(.disabled):active:after {
+      background: #26282b; }
 
 /* Carousel Fading slide */
 .carousel-fade .carousel-inner {
@@ -660,7 +694,32 @@ h6 {
   padding: 16px 0;
   outline: 0 !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important; }
+          box-shadow: none !important;
+  overflow: hidden;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+  position: relative; }
+  .btn:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    bottom: 0;
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+       -moz-transform: skewX(15deg);
+        -ms-transform: skewX(15deg);
+         -o-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: 1; }
+  .btn:hover:after {
+    width: 120%; }
   .btn.with-icons {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -678,10 +737,14 @@ h6 {
         -ms-flex-pack: center;
             justify-content: center; }
     .btn.with-icons img {
+      z-index: 2;
       margin-right: 26px; }
     .btn.with-icons:hover img, .btn.with-icons:not(:disabled):not(.disabled):active img {
       -webkit-filter: invert(100%);
               filter: invert(100%); }
+  .btn span {
+    position: relative;
+    z-index: 2; }
   @media (max-width: 576px) {
     .btn {
       width: 272px; } }
@@ -690,21 +753,26 @@ h6 {
   border: solid 1px #033f72;
   color: #033f72; }
   .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
-    background: #033f72;
+    background: none;
     color: #ffffff; }
+    .btn-primary:hover:after, .btn-primary:not(:disabled):not(.disabled):active:after {
+      background: #033f72; }
   .btn-primary.white {
     border-color: #ffffff;
     color: #ffffff; }
     .btn-primary.white:hover, .btn-primary.white:not(:disabled):not(.disabled):active {
-      background: #ffffff;
       color: #26282b; }
+      .btn-primary.white:hover:after, .btn-primary.white:not(:disabled):not(.disabled):active:after {
+        background: #ffffff; }
 
 .btn-secondary {
   border: solid 1px #c0a266;
   color: #ffffff;
   background: #c0a266; }
   .btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled):active {
-    background: #26282b; }
+    background: #c0a266; }
+    .btn-secondary:hover:after, .btn-secondary:not(:disabled):not(.disabled):active:after {
+      background: #26282b; }
 
 /* Carousel Fading slide */
 .carousel-fade .carousel-inner {
