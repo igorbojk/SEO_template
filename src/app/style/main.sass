@@ -2,6 +2,94 @@
 @import "colors"
 @import 'main-styles'
 
+.no-scroll
+    overflow: hidden
+.preloader
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    z-index: 1001
+    display: flex
+    justify-content: center
+    align-items: center
+    &:before,
+    &:after
+        content: ''
+        position: absolute
+        left: 0
+        right: 0
+        transition: height .5s
+    &:before
+        background: #eff0f0
+        top: 0
+        height: 100vh
+    &:after
+        background: $white
+        height: 0
+        bottom: 0
+        z-index: 10
+    .logo
+        position: relative
+        width: 184px
+        height: 103px
+        z-index: 5
+        .image
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 0
+            left: 0
+            background: url("../assets/icons/logo-white.svg")
+        .animated-logo
+            background: url("../assets/icons/logo-blue.svg")
+            clip-path: inset(0 100% 0 0)
+            transition: clip-path .7s
+    &.loaded
+        .logo
+            .animated-logo
+                clip-path: inset(0 0 0 0)
+    &.change-bg
+        &:before
+            height: 0
+        &:after
+            height: 100vh
+    &.display-none
+        display: none
+
+.header-animated-text
+    position: relative
+    margin-bottom: 0
+    transition: margin-bottom .8s
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        height: 0
+        left: 0
+        right: 0
+        background: $white
+        transition: height .8s
+    &.active
+        margin-bottom: 220px
+        &:before
+            height: 100%
+.video
+    position: relative
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        height: 0
+        transition: box-shadow 1s
+        box-shadow: 0 0 0 150px $white
+    &.fadeIn
+        &:before
+            box-shadow: 0 0 0 0 $white
+
 .header
     height: 88px
     background-color: white
@@ -127,6 +215,7 @@
         position: absolute
         left: 0
         top: 110px
+        z-index: 10
         @media (max-width: 992px)
             display: none
     h1
@@ -145,12 +234,13 @@
             @media (max-width: 576px)
                 margin-bottom: 16px
 
-    .banner
-        width: 100%
-        height: auto
-        margin-bottom: -200px
-        @media (max-width: 576px)
-            margin-bottom: -80px
+    .video
+        img
+            width: 100%
+            height: auto
+            margin-bottom: -200px
+            @media (max-width: 576px)
+                margin-bottom: -80px
 
 .priorities
     padding-top: 280px

@@ -23,8 +23,17 @@
     <link rel="stylesheet" href="css/ekko-lightbox.css"/>
     <link rel="stylesheet" href="css/slick.css"/>
     <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
   </head>
-  <body>
+  <body class="no-scroll">
+    <div class="preloader animated">
+      <div class="logo">
+        <div class="image"></div>
+        <div class="image animated-logo"></div>
+        <!--img(src="assets/icons/logo-white.svg")-->
+        <!--img.animated-logo(src="assets/icons/logo-blue.svg")-->
+      </div>
+    </div>
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light header"><a href="#" class="navbar-brand"><img src="assets/images/logo-sign.svg"/></a>
@@ -50,12 +59,15 @@
           </div>
         </nav>
         <section class="head-banner"><a href="#" class="slide-down"><img src="assets/icons/arrow-down.svg"/></a>
-          <h1 class="text-center">CEO Club Ukraine</h1>
-          <h4 class="text-center">Развитие. Общение. Сотрудничество.</h4>
-          <div class="action-buttons text-center">
+          <div class="header-animated-text active">
+            <h1 class="text-center">CEO Club Ukraine</h1>
+            <h4 class="text-center">Развитие. Общение. Сотрудничество.</h4>
+          </div>
+          <div class="action-buttons text-center animated">
             <button type="button" class="btn btn-primary">Мы на Facebook</button>
             <button type="button" class="btn btn-secondary">Подписаться на дайджест</button>
-          </div><img src="assets/images/video.png" class="banner"/>
+          </div>
+          <div class="video animated"><img src="assets/images/video.png"/></div>
         </section>
       </div>
     </header>

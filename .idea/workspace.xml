@@ -36,18 +36,18 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="406" column="28" lean-forward="true" selection-start-line="406" selection-start-column="28" selection-end-line="406" selection-end-column="44" />
+            <state relative-caret-position="360">
+              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="354" column="20" lean-forward="false" selection-start-line="354" selection-start-column="20" selection-end-line="354" selection-end-column="20" />
+            <state relative-caret-position="216">
+              <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            <state relative-caret-position="394">
+              <caret line="136" column="10" lean-forward="false" selection-start-line="136" selection-start-column="10" selection-end-line="136" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -114,11 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>event-info</find>
-      <find>665px</find>
-      <find>flex-33</find>
-      <find>logo</find>
-      <find>совет клу</find>
       <find>ml-auto</find>
       <find>.navbar-collapse</find>
       <find>665</find>
@@ -143,6 +138,11 @@
       <find>.priorities</find>
       <find>blog</find>
       <find>.partners</find>
+      <find>clubs-life-slider</find>
+      <find>url(&quot;</find>
+      <find>.slide-d</find>
+      <find>banner</find>
+      <find>video</find>
       <find>part</find>
     </findStrings>
     <replaceStrings>
@@ -165,9 +165,9 @@
         <option value="$PROJECT_DIR$/src/app/style/colors.sass" />
         <option value="$PROJECT_DIR$/src/build/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
-        <option value="$PROJECT_DIR$/src/app/js/main.js" />
-        <option value="$PROJECT_DIR$/src/app/template/index.jade" />
         <option value="$PROJECT_DIR$/src/app/style/main.sass" />
+        <option value="$PROJECT_DIR$/src/app/template/index.jade" />
+        <option value="$PROJECT_DIR$/src/app/js/main.js" />
       </list>
     </option>
   </component>
@@ -284,6 +284,11 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/js" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -325,12 +330,12 @@
       <workItem from="1522648862427" duration="26971000" />
       <workItem from="1522751420751" duration="19000" />
       <workItem from="1522751775579" duration="1172000" />
-      <workItem from="1522821780021" duration="6797000" />
+      <workItem from="1522821780021" duration="12638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59407000" />
+    <option name="totallyTimeSpent" value="65248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="24" width="1926" height="1058" extended-state="6" />
@@ -740,26 +745,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="406" column="28" lean-forward="true" selection-start-line="406" selection-start-column="28" selection-end-line="406" selection-end-column="44" />
+        <state relative-caret-position="360">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
+    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="354" column="20" lean-forward="false" selection-start-line="354" selection-start-column="20" selection-end-line="354" selection-end-column="20" />
+        <state relative-caret-position="394">
+          <caret line="136" column="10" lean-forward="false" selection-start-line="136" selection-start-column="10" selection-end-line="136" selection-end-column="10" />
           <folding />
         </state>
       </provider>

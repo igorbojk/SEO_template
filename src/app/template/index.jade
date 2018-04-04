@@ -33,9 +33,16 @@ html(lang="ru")
         link(rel="stylesheet" href="css/ekko-lightbox.css")
         link(rel="stylesheet" href="css/slick.css")
         link(rel="stylesheet" href="css/slick-theme.css")
+        link(rel="stylesheet" href="css/animate.css")
 
 
-    body
+    body.no-scroll
+        .preloader.animated
+            .logo
+                .image
+                .image.animated-logo
+                //img(src="assets/icons/logo-white.svg")
+                //img.animated-logo(src="assets/icons/logo-blue.svg")
         header
             .container
                 nav.navbar.navbar-expand-lg.navbar-light.header
@@ -77,12 +84,14 @@ html(lang="ru")
                 section.head-banner
                     a(href="#").slide-down
                         img(src="assets/icons/arrow-down.svg")
-                    h1.text-center CEO Club Ukraine
-                    h4.text-center Развитие. Общение. Сотрудничество.
-                    .action-buttons.text-center
+                    .header-animated-text.active
+                        h1.text-center CEO Club Ukraine
+                        h4.text-center Развитие. Общение. Сотрудничество.
+                    .action-buttons.text-center.animated
                         button.btn.btn-primary(type='button') Мы на Facebook
                         button.btn.btn-secondary(type='button') Подписаться на дайджест
-                    img.banner(src="assets/images/video.png")
+                    .video.animated
+                        img(src="assets/images/video.png")
         main
 
             section.priorities

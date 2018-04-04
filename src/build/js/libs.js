@@ -117,4 +117,30 @@ $( document ).ready(function() {
         ]
     });
 
+
+    setTimeout(function() {
+        $('.preloader').addClass('loaded');
+    }, 300);
+
+    setTimeout(function() {
+        $('.preloader').addClass('change-bg');
+    }, 1300);
+
+    setTimeout(function() {
+        $('.header-animated-text').removeClass('active');
+        $('.head-banner .action-buttons').addClass('fadeIn');
+        $('.head-banner .video').addClass('fadeIn');
+    }, 1700);
+
+    setTimeout(function() {
+        $('.preloader').addClass('fadeOut');
+    }, 1800);
+
+    setTimeout(function() {
+        $('.preloader').addClass('display-none');
+        $('body').removeClass('no-scroll');
+    }, 2200);
+
+
+
 });
