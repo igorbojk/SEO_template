@@ -29,6 +29,7 @@ $( document ).ready(function() {
         $(this).ekkoLightbox();
     });
 
+
     $('.club-house-slider').slick({
         infinite: false,
         slidesToShow: 1,
@@ -38,6 +39,14 @@ $( document ).ready(function() {
         arrows: true,
         prevArrow: $('.club-house-slider-container .carousel-control-prev'),
         nextArrow: $('.club-house-slider-container .carousel-control-next')
+    });
+
+    $('.full-screen').attr('href', $('.slide img')[0].src);
+
+    $('.club-house-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+
+        $('.full-screen').attr('href', slick.$slides[nextSlide].children[0].currentSrc);
+
     });
 
     $('.clubs-life-slider').slick({
