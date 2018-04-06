@@ -7,6 +7,10 @@
 body
     font-family: 'Open Sans', sans-serif
 
+.bordered-block
+    img
+        width: 100%
+
 h1
 
     font-size: 88px
@@ -70,21 +74,23 @@ h6
     outline: 0 !important
     box-shadow: none !important
     overflow: hidden
-    transition: .3s
+    transition: none !important
     position: relative
     &:after
         position: absolute
-        transition: .3s
+        transition: right .3s
         content: ''
-        width: 0
         bottom: 0
         height: 120%
         left: -10%
+        right: 110%
         transform: skewX(15deg)
         z-index: 1
+        opacity: 1
     &:hover
+        border-color: #033f72
         &:after
-            width: 120%
+            right: -10%
     &.with-icons
         display: inline-flex
         align-items: center
@@ -104,26 +110,26 @@ h6
 .btn-primary
     border: solid 1px $primary
     color: $primary
+    &:after
+        background: $primary
     &:hover,&:not(:disabled):not(.disabled):active
         background: none
-        &:after
-            background: $primary
         color: $white
     &.white
         border-color: $white
         color: $white
+        &:after
+            background: $white
         &:hover,&:not(:disabled):not(.disabled):active
-            &:after
-                background: $white
             color: $text
 .btn-secondary
     border: solid 1px $secondary
     color: $white
     background: $secondary
+    &:after
+        background: $text
     &:hover,&:not(:disabled):not(.disabled):active
         background: $secondary
-        &:after
-            background: $text
 
 
 /* Carousel Fading slide
@@ -178,9 +184,26 @@ h6
         height: 72px
         background: $secondary
         opacity: 1
-        &:hover
+        //position: relative
+        overflow: hidden
+        img
+            z-index: 10
+        &:after
+            position: absolute
+            transition: right .3s
+            content: ''
+            bottom: 0
+            height: 120%
+            left: -20%
+            right: 120%
+            transform: skewX(15deg)
+            z-index: 1
+            opacity: 1
             background: $text
+        &:hover
             cursor: pointer
+            &:after
+                right: -10%
         @media (max-width: 992px)
             width: 56px
             height: 56px
@@ -244,3 +267,6 @@ h6
 //fix to scroll-magic spacer
 .scrollmagic-pin-spacer
     min-height: 20px !important
+
+.d-none
+    display: none

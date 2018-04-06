@@ -91,7 +91,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: '.club-house-slider-container',
     triggerHook: 0,
-    duration: $('.house-info').height() - 240
+    duration: $('.house-info').height() - 140
 })
     .setPin('.club-house-slider-container', {pushFollowers: false})
     //.addIndicators()

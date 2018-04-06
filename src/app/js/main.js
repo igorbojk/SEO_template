@@ -51,26 +51,54 @@ $( document ).ready(function() {
         nextArrow: $('.clubs-life-slider-next')
     });
 
+    $('.advice-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+
+        var counter = 2;
+
+        if (window.innerWidth < 993) {
+            counter = 1;
+        }
+
+        if (window.innerWidth < 577) {
+            counter = 0;
+        }
+
+        if(nextSlide > counter) {
+            $('.advice-slider-prev-button').removeClass('d-none');
+        }else {
+            $('.advice-slider-prev-button').addClass('d-none');
+        }
+        if(nextSlide < (slick.slideCount - counter )) {
+            $('.advice-slider-next-button').removeClass('d-none');
+        }else {
+            $('.advice-slider-next-button').addClass('d-none');
+        }
+    });
+
     $('.advice-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
         arrows: true,
-        infinite: true,
+        infinite: false,
+        initialSlide: 2,
         centerMode: true,
+        draggable: false,
         prevArrow: $('.advice-slider-prev-button'),
         nextArrow: $('.advice-slider-next-button'),
         responsive: [
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 3,
+                    initialSlide: 1
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    initialSlide: 0
                 }
             }
         ]
