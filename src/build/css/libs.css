@@ -84,10 +84,10 @@ h6 {
   position: relative; }
   .btn:after {
     position: absolute;
-    -webkit-transition: right .3s;
-    -o-transition: right .3s;
-    -moz-transition: right .3s;
-    transition: right .3s;
+    -webkit-transition: right .6s;
+    -o-transition: right .6s;
+    -moz-transition: right .6s;
+    transition: right .6s;
     content: '';
     bottom: 0;
     height: 120%;
@@ -227,10 +227,10 @@ h6 {
   .slider-carousel-container .carousel-control-next:after,
   .slider-carousel-container .carousel-control-prev:after {
     position: absolute;
-    -webkit-transition: right .3s;
-    -o-transition: right .3s;
-    -moz-transition: right .3s;
-    transition: right .3s;
+    -webkit-transition: right .45s;
+    -o-transition: right .45s;
+    -moz-transition: right .45s;
+    transition: right .45s;
     content: '';
     bottom: 0;
     height: 125%;
@@ -753,10 +753,10 @@ h6 {
   position: relative; }
   .btn:after {
     position: absolute;
-    -webkit-transition: right .3s;
-    -o-transition: right .3s;
-    -moz-transition: right .3s;
-    transition: right .3s;
+    -webkit-transition: right .6s;
+    -o-transition: right .6s;
+    -moz-transition: right .6s;
+    transition: right .6s;
     content: '';
     bottom: 0;
     height: 120%;
@@ -896,10 +896,10 @@ h6 {
   .slider-carousel-container .carousel-control-next:after,
   .slider-carousel-container .carousel-control-prev:after {
     position: absolute;
-    -webkit-transition: right .3s;
-    -o-transition: right .3s;
-    -moz-transition: right .3s;
-    transition: right .3s;
+    -webkit-transition: right .45s;
+    -o-transition: right .45s;
+    -moz-transition: right .45s;
+    transition: right .45s;
     content: '';
     bottom: 0;
     height: 125%;
