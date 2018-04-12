@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3ba5da55-bec8-4bdd-b104-6529e539451b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app/style/main-styles.sass" afterPath="$PROJECT_DIR$/src/app/style/main-styles.sass" />
-      <change beforePath="$PROJECT_DIR$/src/app/template/index.jade" afterPath="$PROJECT_DIR$/src/app/template/index.jade" />
+      <change beforePath="$PROJECT_DIR$/src/app/style/main.sass" afterPath="$PROJECT_DIR$/src/app/style/main.sass" />
       <change beforePath="$PROJECT_DIR$/src/build/css/libs.css" afterPath="$PROJECT_DIR$/src/build/css/libs.css" />
       <change beforePath="$PROJECT_DIR$/src/build/css/libs.min.css" afterPath="$PROJECT_DIR$/src/build/css/libs.min.css" />
-      <change beforePath="$PROJECT_DIR$/src/build/index.html" afterPath="$PROJECT_DIR$/src/build/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,14 +22,14 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="417" column="42" lean-forward="true" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
+            <state relative-caret-position="6255">
+              <caret line="417" column="42" lean-forward="false" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
@@ -71,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7920">
-              <caret line="528" column="34" lean-forward="false" selection-start-line="528" selection-start-column="12" selection-end-line="528" selection-end-column="34" />
+            <state relative-caret-position="362">
+              <caret line="773" column="17" lean-forward="false" selection-start-line="773" selection-start-column="17" selection-end-line="773" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -84,7 +82,7 @@
       <file leaf-file-name="main-styles.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="2880">
               <caret line="192" column="33" lean-forward="false" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
               <folding />
             </state>
@@ -159,9 +157,9 @@
         <option value="$PROJECT_DIR$/src/build/js/scrollMagicController.js" />
         <option value="$PROJECT_DIR$/src/build/js/libs.js" />
         <option value="$PROJECT_DIR$/src/app/js/main.js" />
-        <option value="$PROJECT_DIR$/src/app/style/main.sass" />
         <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
         <option value="$PROJECT_DIR$/src/app/template/index.jade" />
+        <option value="$PROJECT_DIR$/src/app/style/main.sass" />
       </list>
     </option>
   </component>
@@ -203,7 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,7 +273,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,18 +335,20 @@
       <workItem from="1522920647600" duration="2058000" />
       <workItem from="1522935747402" duration="6570000" />
       <workItem from="1523001997020" duration="814000" />
-      <workItem from="1523449567492" duration="480000" />
+      <workItem from="1523449567492" duration="760000" />
+      <workItem from="1523525314146" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90126000" />
+    <option name="totallyTimeSpent" value="90571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="24" width="1926" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -732,17 +732,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7920">
-          <caret line="528" column="34" lean-forward="false" selection-start-line="528" selection-start-column="12" selection-end-line="528" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="2880">
           <caret line="192" column="33" lean-forward="false" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
           <folding />
         </state>
@@ -750,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="417" column="42" lean-forward="true" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
+        <state relative-caret-position="6255">
+          <caret line="417" column="42" lean-forward="false" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -760,6 +752,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="773" column="17" lean-forward="false" selection-start-line="773" selection-start-column="17" selection-end-line="773" selection-end-column="17" />
           <folding />
         </state>
       </provider>
