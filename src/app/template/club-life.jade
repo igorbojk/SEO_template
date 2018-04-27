@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+
+        title CEO WEB
+        meta(name="description" content="описание страницы")
+        meta(name="copyright" content="информация о вашей фирме")
+        meta(name="keywords" content="ключевые слова через запятую")
+
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+
+        meta(property="og:image" content="path/to/image.jpg")
+        link(rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon")
+        link(rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png")
+        link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png")
+        link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png")
+
+        <!-- Chrome, Firefox OS and Opera -->
+        meta(name="theme-color" content="#000")
+        <!-- Windows Phone -->
+        meta(name="msapplication-navbutton-color" content="#000")
+        <!-- iOS Safari -->
+        meta(name="apple-mobile-web-app-status-bar-style" content="#000")
+
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic', rel='stylesheet')
+        link(href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;subset=cyrillic" rel="stylesheet")
+    body
+        .preloader.animated
+            .logo
+                .image
+                .image.animated-logo
+        header
+            .container
+                nav.navbar.navbar-expand-lg.navbar-light.header
+                    a.navbar-brand(href='#')
+                        img(src="assets/images/logo-sign.svg")
+                    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
+                        .icon
+                    #navbarTogglerDemo03.collapse.navbar-collapse
+                        ul.navbar-nav.m-auto
+                            li.nav-item
+                                a.nav-link(href='index.html')
+                                    | О клубе
+                            li.nav-item.active
+                                a.nav-link(href='club-life.html') Жизнь клуба
+                            li.nav-item
+                                a.nav-link(href='#') Членство
+                            li.nav-item
+                                a.nav-link(href='#') Мероприятия
+                            li.nav-item
+                                a.nav-link(href='#') Блог
+                        .devider
+                        ul.navbar-nav.ml-auto
+                            li.nav-item
+                                a.nav-link.knowledge-base(href='#')
+                                    img(src="assets/icons/lock.svg")
+                                    span База знаний
+                            li.nav-item.dropdown
+                                a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                    | РУС
+                                .dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
+                                    a.dropdown-item.active(href='#') РУССКИЙ
+                                    //a.dropdown-item(href='#') УКРАЇНСЬКА
+                                    a.dropdown-item(href='#') ENGLISH
+                        .language-mobile
+                            a.active(href='#') РУССКИЙ
+                            //a(href='#') УКРАЇНСЬКА
+                            a(href='#') ENGLISH
+        main.club-life-page
+            section.banner
+                .container
+                    img(src="assets/images/club-life-banner.jpg")
+                    .row
+                        .col.col-7.offset-3.col-lg-6.offset-lg-3
+                            .club-life-info.info-list-block
+                                .content
+                                    h3 Жизнь CEO Club Ukraine
+                                    h5 Клуб – это не ряд мероприятий и не платформа для обмена визитками, а живая экосистема, которая стимулирует:
+                                    ul
+                                        li общение, интеграцию и построение доверия внутри клуба;
+                                        li развитие каждого участника – как личностное, так и профессиональное;
+                                        li сотрудничество между масштабными личностями и их компаниями.
+                                    h5 Каждый член клуба – активный участник, который привносит свой опыт, знания и энергию в развитие сообщества. В то же время, каждый участник может использовать огромный коллективный ресурс всего клуба.
+            section.clubs-formats
+                .container
+                    h3 Ключевые форматы клуба
+                    .row
+                        .col.col-10.offset-1
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/peer2peer.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Peer-2-Peer
+                                            .devider.small
+                                            .description Ежемесячные встречи в стабильных группах из 8–12 участников для решения кейсов участников группы через обмен идеями, реальным жизненным и бизнес- опытом
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/individual.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Индивидуальная поддержка и решение запросов
+                                            .devider.small
+                                            .description Закрытый чат для оперативного решения проблем и запросов членов клуба: обмен контактами, рекомендациями, помощь и содействие от других членов клуба
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/top.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Встречи с ТОП-спикерами страны и мира
+                                            .devider.small
+                                            .description Живое общение с ведущими бизнесменами, экономистами, футурологами, мыслителями, политиками и экспертами в интересующих клуб областях.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/lanch.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Ланчи-знакомства
+                                            .devider.small
+                                            .description Клубные обеды на 10-12 человек для комфортной постепенной интеграции новых членов клуба, близкого знакомства, изучения общих интересов и возможностей для сотрудничества.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/business-tour.svg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Международные бизнес-туры
+                                            .devider.small
+                                            .description Поездки в представительства CEO Clubs International для знакомства, заключения партнерств, изучения лучших бизнес-практик других стран.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/panel.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Панельные дискуссии
+                                            .devider.small
+                                            .description Модерированные дискуссии с приглашенными гостями на интересующие членов клуба тематики.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/business-tour.svg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Визиты в компании
+                                            .devider.small
+                                            .description Экскурсии на предприятия для глубокого знакомства с различными аспектами бизнеса и изучения современных практик, внедренных другими компаниями.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/foreigner.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Встречи с иностранными делегациями и послами
+                                            .devider.small
+                                            .description Развитие сети контактов с представителями международного бизнеса для выхода на новые рынки, привлечения инвестиций, изучения потенциала конкретной страны, поиска потенциальных партнеров.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/base.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title База возможностей
+                                            .devider.small
+                                            .description Закрытая база рекомендаций членов клуба в самых разных сферах и отраслях: подрядчики, консультанты, специалисты, организации, международные контакты, здоровье, обучение, программы лояльности от компаний участников и партнеров клуба.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/program.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Закрытые тренинг-программы
+                                            .devider.small
+                                            .description Образовательные мероприятия от лучших практиков и экспертов, английский дискуссионный клуб, клуб риторики, мастер-класс по построению сети связей.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/base_education.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title База знаний
+                                            .devider.small
+                                            .description Закрытый архив эксклюзивных материалов клуба: полные видеозаписи мероприятий, презентации и конспекты событий, интервью с разбором кейсов участников.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/neformal.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Неформальные дискуссионные вечера
+                                            .devider.small
+                                            .description Пятничные встречи за бокалом вина для обсуждения философских вопросов, различных аспектов саморазвития, бизнеса, политики, межличностных отношений.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/family.jpg')
+                                    .format-info
+                                        .info-container
+                                            h5.title Семейные мероприятия
+                                            .devider.small
+                                            .description Встречи на темы персонального развития, спорта, здоровья, семьи, воспитания детей, летние выездные пикники, яхтинг, новогодние балы.
+                            .format-item
+                                .row
+                                    .col.col-lg-6.col-md-12.col-sm-12.col-12
+                                        .bordered-block
+                                            img(src='assets/images/cult.png')
+                                    .format-info
+                                        .info-container
+                                            h5.title Культурные и тематические вечера
+                                            .devider.small
+                                            .description Вечерние встречи с приглашенными деятелями культуры и искусства для расширения сфер интересов членов клуба и обеспечения качественного диалога бизнеса, культуры и общества.
+            section.action-info
+                .container
+                    .row
+                        .col.col-10.offset-1
+                            .row
+                                .col.col-6.col-lg-6
+                                    .info-item
+                                        .title Как стать членом клуба
+                                        .desc В соответствии с международными клубными традициями, перед тем, как стать частью нашего сообщества, каждый кандидат проходит процесс отбора.<br><br>Первый этап – это заполнение анкеты. После этого менеджер клуба связывается с кандидатами, соответствующими критериям членства, для согласования дальнейших шагов.
+                                        button.btn.btn-secondary(type='button')
+                                            span Заполнить анкету
+                                .col.col-6.col-lg-6
+                                    .info-item
+                                        .title Посетить гостевое мероприятие
+                                        .desc Мы рады видеть на своих мероприятиях людей, заинтересованных во вступлении в клуб и соответствующих его стандартам.<br><br>Гостевое мероприятие – возможность окунуться в атмосферу клуба, узнать больше о наших форматах и познакомиться с другими участниками.
+                                        button.btn.btn-secondary(type='button')
+                                            span Узнать о ближайшем гостевом мероприятии
+            section.recent-events.clubs-life
+                .container
+                    h3 Недавние события клуба
+                    .row.m-b-56
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
+                            .slider-carousel-container
+                                .event1-slider.bordered-block
+                                    img(src='assets/images/sergey.jpg')
+                                    img(src='assets/images/benefits.jpg')
+                                a.carousel-control-prev.event1-slider-prev
+                                    img.rotate180(src="assets/icons/white.svg")
+                                a.carousel-control-next.event1-slider-next
+                                    img(src="assets/icons/white.svg")
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
+                            .event-info
+                                .info-container
+                                    .date 28 марта 2017
+                                    h3.title Панельная дискуссия <br> «Партнерство в бизнесе»
+                                    .devider.small
+                                    .description Описание мероприятия
+                    .row.m-b-56
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
+                            .event-info
+                                .info-container
+                                    .date 28 марта 2017
+                                    h3.title Встреча клуба с профессором Фрэнсисом Фукуямой
+                                    .devider.small
+                                    .description Описание мероприятия
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
+                            .slider-carousel-container.right
+                                .event2-slider.bordered-block
+                                    img(src='assets/images/sergey.jpg')
+                                    img(src='assets/images/benefits.jpg')
+                                a.carousel-control-prev.event2-slider-prev
+                                    img.rotate180(src="assets/icons/white.svg")
+                                a.carousel-control-next.event2-slider-next
+                                    img(src="assets/icons/white.svg")
+                    .row.m-b-56
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
+                            .slider-carousel-container
+                                .event3-slider.bordered-block
+                                    img(src='assets/images/sergey.jpg')
+                                    img(src='assets/images/benefits.jpg')
+                                a.carousel-control-prev.event3-slider-prev
+                                    img.rotate180(src="assets/icons/white.svg")
+                                a.carousel-control-next.event3-slider-next
+                                    img(src="assets/icons/white.svg")
+                        .col.col-lg-6.col-md-12.col-sm-12.col-12
+                            .event-info
+                                .info-container
+                                    .date 28 марта 2017
+                                    h3.title Камерный концерт с Алексеем Ботвиновым
+                                    .devider.small
+                                    .description Описание мероприятия
+            section.club-advice.clubs-guest
+                .container
+                    h3.opacity-animation Гости и спикеры клуба
+                    h5 Клуб проводит более 100 мероприятий в год, приглашая в гости лучших украинских и международных экспертов, бизнесменов, общественных деятелей, политиков, ученых и деятелей искусства.
+                .advice-slider-container.opacity-animation
+                    .advice-slider
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-1.jpg')
+                                .title Сергей Гайдайчук
+                                .desc основатель и президент CEO Club Ukraine
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-2.jpg')
+                                .title Вячеслав Лысенко
+                                .desc собственник UKR-CHINA COMMUNICATION
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-3.jpg')
+                                .title Ярослав Плашко
+                                .desc партнер CMS Group
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-4.jpg')
+                                .title Тарас Кириченко
+                                .desc председатель правления Правекс-Банка
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-1.jpg')
+                                .title Сергей Гайдайчук
+                                .desc основатель и президент CEO Club Ukraine
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-2.jpg')
+                                .title Вячеслав Лысенко
+                                .desc собственник UKR-CHINA COMMUNICATION
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-3.jpg')
+                                .title Ярослав Плашко
+                                .desc партнер CMS Group
+                        div
+                            .slider-item
+                                .avatar
+                                    img(src='assets/images/board-4.jpg')
+                                .title Тарас Кириченко
+                                .desc председатель правления Правекс-Банка
+                    a(href="#").slider-button.advice-slider-next-button
+                        img(src="assets/icons/black-long.svg")
+                    a(href="#").slider-button.advice-slider-prev-button.d-none
+                        img.rotate180(src="assets/icons/black-long.svg")
+                .container
+                    .text-center
+                        button.btn.btn-primary(type='button')
+                            span Присоединиться к клубу
+        footer
+            .container
+                .row
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-2.hide-on-mobile
+                        .devider.white
+
+                    .col.col-lg-4.text-center.col-md-8.col-sm-8.col-12
+                        img.logo(src="assets/images/logo-full.svg")
+
+                    .col.col-sm-12.col-12.show-only-mobile.text-center
+                        .devider.white.no-margin
+
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-2.hide-on-mobile
+                        .devider.white
+                .row
+                    .col.col-lg-3.offset-lg-1.col-md-6
+                        ul.menu
+                            li
+                                a(href="#") Главная
+                            li
+                                a(href="#") Форматы
+                            li
+                                a(href="#") Блог
+                            li
+                                a(href="#") Мероприятия
+                            li
+                                a(href="#") Членство
+
+                    .col.col-sm-12.col-12.show-only-mobile.text-center
+                        .devider.white.no-margin
+
+                    //.col.col-md-3.col-3.offset-lg-1.hide-on-tablet
+
+                    .col.col-lg-4.text-center.col-md-4.order-lg-1.order-md-3.order-sm-3.order-3
+                        .social-buttons
+                            button.btn.btn-primary.white.with-icons(type='button')
+                                img(src="assets/icons/fb.svg")
+                                span Facebook
+                            button.btn.btn-primary.white.with-icons(type='button')
+                                img(src="assets/icons/linkedin.svg")
+                                span Linkedin
+
+                    .col.col-lg-3.offset-lg-1.col-md-6.order-md-2.order-sm-2.order-2
+                        .contact-list-title Контакты
+                        ul.contact-list
+                            li
+                                span +38 044 22 888 13
+                            li
+                                a(href="mailto:info@ceoclub.com.ua") info@ceoclub.com.ua
+                            li
+                                span Клубный дом CEO Club Ukraine:
+                                a(href="#") Украина, Киев, Бутышев переулок 23
+                .copyright &copy; CEO Club Ukraine
+
+        link(rel="stylesheet" href="css/bootstrap.min.css")
+        link(rel="stylesheet" href="css/libs.min.css")
+        link(rel="stylesheet" href="css/ekko-lightbox.css")
+        link(rel="stylesheet" href="css/slick.css")
+        link(rel="stylesheet" href="css/slick-theme.css")
+        link(rel="stylesheet" href="css/animate.css")
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+        script(src="js/bootstrap.min.js")
+        script(src="js/ekko-lightbox.min.js")
+        script(src="js/slick.min.js")
+        script(src="js/ScrollMagic.min.js")
+        script(src="js/scrollMagicController.js")
+        script(src="js/libs.js")

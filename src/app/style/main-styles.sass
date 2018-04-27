@@ -245,7 +245,8 @@ h6
 
 .no-margin
     margin: 0
-
+.m-b-56
+    margin-bottom: 56px
 
 .hide-on-mobile
     @media (max-width: 576px)
@@ -270,3 +271,49 @@ h6
 
 .d-none
     display: none
+
+
+.info-list-block
+    .content
+        background: $white
+        padding: 40px
+        position: relative
+        z-index: 3
+        h3
+            font-size: 32px
+            font-weight: 900
+            font-style: normal
+            font-stretch: normal
+            line-height: 1.25
+            letter-spacing: normal
+            text-align: left
+            margin-bottom: 24px
+            @media (max-width: 992px)
+                font-size: 24px
+        h5
+            position: relative
+            font-size: 16px
+            font-weight: normal
+            font-style: normal
+            font-stretch: normal
+            line-height: 1.5
+            letter-spacing: 0.7px
+            text-align: left
+        ul
+            li
+                position: relative
+                font-size: 16px
+                font-weight: normal
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.5
+                letter-spacing: 0.7px
+                text-align: left
+                &:before
+                    position: absolute
+                    content: ''
+                    left: -40px
+                    top: 12px
+                    height: 2px
+                    width: 24px
+                    background: #c0a266

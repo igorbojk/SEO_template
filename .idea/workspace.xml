@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba5da55-bec8-4bdd-b104-6529e539451b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/template/club-life.jade" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/app/js/main.js" afterPath="$PROJECT_DIR$/src/app/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/src/app/style/colors.sass" afterPath="$PROJECT_DIR$/src/app/style/colors.sass" />
+      <change beforePath="$PROJECT_DIR$/src/app/style/main-styles.sass" afterPath="$PROJECT_DIR$/src/app/style/main-styles.sass" />
       <change beforePath="$PROJECT_DIR$/src/app/style/main.sass" afterPath="$PROJECT_DIR$/src/app/style/main.sass" />
+      <change beforePath="$PROJECT_DIR$/src/app/template/index.jade" afterPath="$PROJECT_DIR$/src/app/template/index.jade" />
+      <change beforePath="$PROJECT_DIR$/src/build/css/libs.css" afterPath="$PROJECT_DIR$/src/build/css/libs.css" />
+      <change beforePath="$PROJECT_DIR$/src/build/css/libs.min.css" afterPath="$PROJECT_DIR$/src/build/css/libs.min.css" />
+      <change beforePath="$PROJECT_DIR$/src/build/index.html" afterPath="$PROJECT_DIR$/src/build/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/build/js/libs.js" afterPath="$PROJECT_DIR$/src/build/js/libs.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,48 +29,8 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6255">
-              <caret line="417" column="42" lean-forward="false" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrollMagicController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/build/js/scrollMagicController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+            <state relative-caret-position="250">
+              <caret line="324" column="40" lean-forward="true" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -69,8 +39,30 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="753" column="21" lean-forward="true" selection-start-line="753" selection-start-column="21" selection-end-line="753" selection-end-column="21" />
+            <state relative-caret-position="336">
+              <caret line="1136" column="25" lean-forward="false" selection-start-line="1136" selection-start-column="25" selection-end-line="1136" selection-end-column="25" />
+              <folding>
+                <marker date="1524831766344" expanded="true" signature="32506:32551" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="club-life.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/template/club-life.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="352" column="66" lean-forward="false" selection-start-line="352" selection-start-column="66" selection-end-line="352" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -79,8 +71,8 @@
       <file leaf-file-name="main-styles.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2880">
-              <caret line="192" column="33" lean-forward="false" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
+            <state relative-caret-position="227">
+              <caret line="248" column="23" lean-forward="false" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -98,26 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url(</find>
-      <find>Дом</find>
-      <find>.addIndicators()</find>
-      <find>.club-house</find>
-      <find>hide-on-tablet</find>
-      <find>.head-banner</find>
-      <find>annotation-slider</find>
-      <find>.priorities</find>
-      <find>.principles-item</find>
-      <find>.house-info</find>
-      <find>cursir</find>
-      <find>blockq</find>
-      <find>Встреча с Сергеем Тигипко</find>
-      <find>slider-carousel-container</find>
-      <find>advice-slider-container</find>
-      <find>240</find>
-      <find>ce</find>
-      <find>afterChange</find>
-      <find>.advice-slider-container</find>
-      <find>.btn</find>
       <find>footer</find>
       <find>.projects</find>
       <find>blog</find>
@@ -128,6 +100,26 @@
       <find>.carousel-control-prev</find>
       <find>btn</find>
       <find>русс</find>
+      <find>src</find>
+      <find>house-inf</find>
+      <find>events</find>
+      <find>house-info</find>
+      <find>font-family: 'Playfair Display', serif</find>
+      <find>Playfair</find>
+      <find>no-s</find>
+      <find>.col.col-lg-6.offset-lg-6</find>
+      <find>.btn-secondary</find>
+      <find>.btn</find>
+      <find>playf</find>
+      <find>Некоторые события клубной жизни</find>
+      <find>недав</find>
+      <find>clubs-life-slider-next</find>
+      <find>.events</find>
+      <find>clubs-life-slider-prev</find>
+      <find>marg</find>
+      <find>life</find>
+      <find>.clubs-life</find>
+      <find>Совет клуба</find>
     </findStrings>
     <replaceStrings>
       <replace>$text</replace>
@@ -137,6 +129,7 @@
       <replace>-md-</replace>
       <replace />
       <replace>//.addIndicators()</replace>
+      <replace>.col.col-lg-6</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -147,15 +140,23 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/app/style/colors.sass" />
         <option value="$PROJECT_DIR$/src/build/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/build/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/build/js/scrollMagicController.js" />
         <option value="$PROJECT_DIR$/src/build/js/libs.js" />
-        <option value="$PROJECT_DIR$/src/app/js/main.js" />
-        <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
+        <option value="$PROJECT_DIR$/src/app/style/colors.sass" />
+        <option value="$PROJECT_DIR$/../livak/application1.css" />
+        <option value="$PROJECT_DIR$/../livak/application3.css" />
+        <option value="$PROJECT_DIR$/../livak/application2.css" />
+        <option value="$PROJECT_DIR$/../livak/mgr.css" />
+        <option value="$PROJECT_DIR$/../livak/pdopage.css" />
+        <option value="$PROJECT_DIR$/../livak/index.css" />
+        <option value="$PROJECT_DIR$/../livak/application.css" />
         <option value="$PROJECT_DIR$/src/app/template/index.jade" />
+        <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
+        <option value="$PROJECT_DIR$/src/app/js/main.js" />
+        <option value="$PROJECT_DIR$/src/app/template/club-life.jade" />
         <option value="$PROJECT_DIR$/src/app/style/main.sass" />
       </list>
     </option>
@@ -198,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,13 +271,14 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Pug/Jade" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../livak" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
@@ -333,19 +334,21 @@
       <workItem from="1522935747402" duration="6570000" />
       <workItem from="1523001997020" duration="814000" />
       <workItem from="1523449567492" duration="760000" />
-      <workItem from="1523525314146" duration="322000" />
+      <workItem from="1523525314146" duration="947000" />
+      <workItem from="1524236734164" duration="403000" />
+      <workItem from="1524812716010" duration="15536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90728000" />
+    <option name="totallyTimeSpent" value="107292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="24" width="1926" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -364,6 +367,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3304721" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -376,67 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6795">
-          <caret line="453" column="63" lean-forward="false" selection-start-line="453" selection-start-column="63" selection-end-line="453" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12405">
-          <caret line="827" column="0" lean-forward="false" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/build/css/libs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/build/css/libs.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="196" column="4" lean-forward="false" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/style/colors.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -480,7 +443,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12405">
           <caret line="827" column="0" lean-forward="false" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1524831766344" expanded="true" signature="32506:32551" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -588,7 +553,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3405">
           <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1524831766344" expanded="true" signature="32506:32551" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,7 +587,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1524831766344" expanded="true" signature="32506:32551" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -651,14 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="5" column="6366" lean-forward="false" selection-start-line="5" selection-start-column="6366" selection-end-line="5" selection-end-column="6366" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/colors.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,43 +682,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="50" />
+        <state relative-caret-position="1305">
+          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/colors.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/application1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="4435" column="0" lean-forward="true" selection-start-line="4435" selection-start-column="0" selection-end-line="4439" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/application3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="3852" column="28" lean-forward="false" selection-start-line="3852" selection-start-column="28" selection-end-line="3852" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/application2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="3876" column="0" lean-forward="false" selection-start-line="3876" selection-start-column="0" selection-end-line="3880" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/mgr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/pdopage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="10469" column="0" lean-forward="true" selection-start-line="10469" selection-start-column="0" selection-end-line="10469" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../livak/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="5220" column="0" lean-forward="true" selection-start-line="5220" selection-start-column="0" selection-end-line="5220" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="192" column="33" lean-forward="false" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
+        <state relative-caret-position="227">
+          <caret line="248" column="23" lean-forward="false" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6255">
-          <caret line="417" column="42" lean-forward="false" selection-start-line="417" selection-start-column="42" selection-end-line="417" selection-end-column="42" />
+        <state relative-caret-position="250">
+          <caret line="324" column="40" lean-forward="true" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/src/app/template/club-life.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state relative-caret-position="900">
+          <caret line="352" column="66" lean-forward="false" selection-start-line="352" selection-start-column="66" selection-end-line="352" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="753" column="21" lean-forward="true" selection-start-line="753" selection-start-column="21" selection-end-line="753" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="336">
+          <caret line="1136" column="25" lean-forward="false" selection-start-line="1136" selection-start-column="25" selection-end-line="1136" selection-end-column="25" />
+          <folding>
+            <marker date="1524831766344" expanded="true" signature="32506:32551" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

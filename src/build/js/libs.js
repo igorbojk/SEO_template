@@ -41,7 +41,9 @@ $( document ).ready(function() {
         nextArrow: $('.club-house-slider-container .carousel-control-next')
     });
 
-    $('.full-screen').attr('href', $('.slide img')[0].src);
+    if($('.full-screen').length){
+        $('.full-screen').attr('href', $('.slide img')[0].src);
+    }
 
     $('.club-house-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
 
@@ -59,6 +61,41 @@ $( document ).ready(function() {
         prevArrow: $('.clubs-life-slider-prev'),
         nextArrow: $('.clubs-life-slider-next')
     });
+
+    $('.event1-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        dots: false,
+        arrows: true,
+        prevArrow: $('.event1-slider-prev'),
+        nextArrow: $('.event1-slider-next')
+    });
+
+    $('.event2-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        dots: false,
+        arrows: true,
+        prevArrow: $('.event2-slider-prev'),
+        nextArrow: $('.event2-slider-next')
+    });
+
+    $('.event3-slider').slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        dots: false,
+        arrows: true,
+        prevArrow: $('.event3-slider-prev'),
+        nextArrow: $('.event3-slider-next')
+    });
+
+
 
     $('.advice-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
 
@@ -138,7 +175,6 @@ $( document ).ready(function() {
     });
 
     window.onscroll=function(){
-        console.log('no-scroll');
         window.scrollTo(0, 0);
     };
 

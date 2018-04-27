@@ -299,6 +299,9 @@ h6 {
 .no-margin {
   margin: 0; }
 
+.m-b-56 {
+  margin-bottom: 56px; }
+
 @media (max-width: 576px) {
   .hide-on-mobile {
     display: none; } }
@@ -327,6 +330,50 @@ h6 {
 
 .d-none {
   display: none; }
+
+.info-list-block .content {
+  background: #ffffff;
+  padding: 40px;
+  position: relative;
+  z-index: 3; }
+  .info-list-block .content h3 {
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 24px; }
+    @media (max-width: 992px) {
+      .info-list-block .content h3 {
+        font-size: 24px; } }
+  .info-list-block .content h5 {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: left; }
+  .info-list-block .content ul li {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: left; }
+    .info-list-block .content ul li:before {
+      position: absolute;
+      content: '';
+      left: -40px;
+      top: 12px;
+      height: 2px;
+      width: 24px;
+      background: #c0a266; }
 
 /**
  * modified version of eric meyer's reset 2.0
@@ -968,6 +1015,9 @@ h6 {
 .no-margin {
   margin: 0; }
 
+.m-b-56 {
+  margin-bottom: 56px; }
+
 @media (max-width: 576px) {
   .hide-on-mobile {
     display: none; } }
@@ -996,6 +1046,50 @@ h6 {
 
 .d-none {
   display: none; }
+
+.info-list-block .content {
+  background: #ffffff;
+  padding: 40px;
+  position: relative;
+  z-index: 3; }
+  .info-list-block .content h3 {
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 24px; }
+    @media (max-width: 992px) {
+      .info-list-block .content h3 {
+        font-size: 24px; } }
+  .info-list-block .content h5 {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: left; }
+  .info-list-block .content ul li {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-align: left; }
+    .info-list-block .content ul li:before {
+      position: absolute;
+      content: '';
+      left: -40px;
+      top: 12px;
+      height: 2px;
+      width: 24px;
+      background: #c0a266; }
 
 .no-scroll {
   overflow: hidden; }
@@ -2317,3 +2411,151 @@ footer {
     letter-spacing: 1px;
     color: #ffffff;
     padding-top: 56px; }
+
+.club-life-page {
+  background: #FAFAFA; }
+  .club-life-page .bordered-block img,
+  .club-life-page .banner img {
+    width: 100%;
+    height: auto; }
+  .club-life-page .club-life-info {
+    margin-top: -175px;
+    background: #ffffff; }
+    .club-life-page .club-life-info ul {
+      margin-bottom: 24px; }
+  .club-life-page .clubs-formats {
+    padding: 80px 0; }
+    .club-life-page .clubs-formats .container > h3 {
+      margin-bottom: 80px; }
+    .club-life-page .clubs-formats .format-item {
+      margin-bottom: 66px;
+      position: relative; }
+      .club-life-page .clubs-formats .format-item .col {
+        margin-left: 50%; }
+        @media (max-width: 992px) {
+          .club-life-page .clubs-formats .format-item .col {
+            margin-left: 0; } }
+      .club-life-page .clubs-formats .format-item:nth-child(odd) .col {
+        margin-left: 0; }
+      .club-life-page .clubs-formats .format-item:nth-child(odd) .format-info {
+        right: 0; }
+      .club-life-page .clubs-formats .format-item .format-info {
+        z-index: 5;
+        position: absolute;
+        width: 58.333%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 100%; }
+        .club-life-page .clubs-formats .format-item .format-info .info-container {
+          padding: 24px 32px;
+          padding-bottom: 14px;
+          min-height: 240px;
+          width: 100%;
+          background: #ffffff; }
+          .club-life-page .clubs-formats .format-item .format-info .info-container .title {
+            font-size: 24px;
+            font-weight: 900;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #26282b;
+            font-family: 'Playfair Display', serif; }
+          .club-life-page .clubs-formats .format-item .format-info .info-container .description {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.5;
+            letter-spacing: 0.7px;
+            color: #26282b; }
+  .club-life-page .action-info {
+    padding: 80px 0;
+    background: #ffffff; }
+    .club-life-page .action-info .info-item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: 100%; }
+      .club-life-page .action-info .info-item .title {
+        font-family: 'Playfair Display', serif;
+        background: #FAFAFA;
+        padding: 32px 40px;
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        color: #26282b;
+        margin-bottom: 2px; }
+      .club-life-page .action-info .info-item .desc {
+        padding: 32px 40px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 0.7px;
+        background: #FAFAFA;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+           -moz-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto; }
+      .club-life-page .action-info .info-item button {
+        width: 100%;
+        padding: 16px 8px;
+        white-space: inherit; }
+        @media (max-width: 1200px) {
+          .club-life-page .action-info .info-item button {
+            height: 82px; } }
+  .club-life-page .recent-events .info-container .title {
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25; }
+  .club-life-page .recent-events .event1-slider,
+  .club-life-page .recent-events .event3-slider {
+    margin-left: 36px; }
+  .club-life-page .recent-events .slider-carousel-container.right {
+    margin-right: 36px; }
+    .club-life-page .recent-events .slider-carousel-container.right .carousel-control-prev {
+      left: -17px; }
+    .club-life-page .recent-events .slider-carousel-container.right .carousel-control-next {
+      right: 36px; }
+  .club-life-page .clubs-guest {
+    padding-top: 80px; }
+    .club-life-page .clubs-guest h3 {
+      margin-bottom: 24px;
+      margin-top: 0; }
+    .club-life-page .clubs-guest h5 {
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.78;
+      letter-spacing: 0.7px;
+      text-align: center;
+      color: #26282b;
+      margin-bottom: 48px; }
+    .club-life-page .clubs-guest .advice-slider-container .slider-button {
+      top: -180px; }
