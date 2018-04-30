@@ -42,6 +42,7 @@ $( document ).ready(function() {
     });
 
     if($('.full-screen').length){
+
         $('.full-screen').attr('href', $('.slide img')[0].src);
     }
 

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+
+        title CEO WEB
+        meta(name="description" content="описание страницы")
+        meta(name="copyright" content="информация о вашей фирме")
+        meta(name="keywords" content="ключевые слова через запятую")
+
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+
+        meta(property="og:image" content="path/to/image.jpg")
+        link(rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon")
+        link(rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png")
+        link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png")
+        link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png")
+
+        <!-- Chrome, Firefox OS and Opera -->
+        meta(name="theme-color" content="#000")
+        <!-- Windows Phone -->
+        meta(name="msapplication-navbutton-color" content="#000")
+        <!-- iOS Safari -->
+        meta(name="apple-mobile-web-app-status-bar-style" content="#000")
+
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic', rel='stylesheet')
+        link(href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;subset=cyrillic" rel="stylesheet")
+    body
+        .preloader.animated
+            .logo
+                .image
+                .image.animated-logo
+        header
+            .container
+                nav.navbar.navbar-expand-lg.navbar-light.header
+                    a.navbar-brand(href='#')
+                        img(src="assets/images/logo-sign.svg")
+                    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
+                        .icon
+                    #navbarTogglerDemo03.collapse.navbar-collapse
+                        ul.navbar-nav.m-auto
+                            li.nav-item
+                                a.nav-link(href='index.html')
+                                    | О клубе
+                            li.nav-item.active
+                                a.nav-link(href='club-life.html') Жизнь клуба
+                            li.nav-item
+                                a.nav-link(href='membership.html') Членство
+                            li.nav-item
+                                a.nav-link(href='#') Мероприятия
+                            li.nav-item
+                                a.nav-link(href='#') Блог
+                        .devider
+                        ul.navbar-nav.ml-auto
+                            li.nav-item
+                                a.nav-link.knowledge-base(href='#')
+                                    img(src="assets/icons/lock.svg")
+                                    span База знаний
+                            li.nav-item.dropdown
+                                a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                    | РУС
+                                .dropdown-menu.dropdown-menu-right(aria-labelledby='navbarDropdownMenuLink')
+                                    a.dropdown-item.active(href='#') РУССКИЙ
+                                    //a.dropdown-item(href='#') УКРАЇНСЬКА
+                                    a.dropdown-item(href='#') ENGLISH
+                        .language-mobile
+                            a.active(href='#') РУССКИЙ
+                            //a(href='#') УКРАЇНСЬКА
+                            a(href='#') ENGLISH
+        main.membership-page
+            section.banner
+                .container
+                    img(src="assets/images/membership-banner.jpg")
+                    .row
+                        .col.col-xl-8.offset-xl-2.col-lg-8.offset-lg-2.col-md-10.offset-md-1.col-sm-10.offset-sm-1.col-12.offset-0
+                            .club-life-info.info-list-block
+                                .content
+                                    h3 Членство в CEO Club Ukraine
+                                    ul
+                                        li Мы в CEO Club бережно относимся к формированию собственного окружения. Поскольку мы объединяем личностей, а не компании, нам важно понимать, что каждый новый участник разделяет ценности сообщества.
+                                        li За годы существования клуба мы определили ряд принципиальных критериев и процедуру присоединения новых кандидатов. Это помогает формировать сообщество близких по духу людей и обеспечивать максимально комфортную интеграцию каждого нового участника.
+            section.criteria
+                .container
+                    h3.section-title Критерии членства в СЕО Club Ukraine
+                    .row
+                        .col-xl-6.col-lg-12.col-md-12.col-sm-12.col-12
+                            .criteria-item
+                                .icon-block
+                                    img(src="assets/icons/reputation.svg")
+                                .info-block
+                                    .title Положительная деловая репутация и наличие рекомендаций
+                                    .devider.small
+                                    .desc Репутация клуба зависит от репутации каждого его участника, поэтому мы уделяем большое внимание истории и рекомендациям каждого кандидата.
+                        .col-xl-6.col-lg-12.col-md-12.col-sm-12.col-12
+                            .criteria-item
+                                .icon-block
+                                    img(src="assets/icons/person.svg")
+                                .info-block
+                                    .title Статус первого лица компании среднего или крупного бизнеса
+                                    .devider.small
+                                    .desc Этот критерий гарантирует единый уровень общения, целей и запросов, в которых участники могут быть полезными друг другу.
+                        .col-xl-6.col-lg-12.col-md-12.col-sm-12.col-12
+                            .criteria-item
+                                .icon-block
+                                    img(src="assets/icons/value.svg")
+                                .info-block
+                                    .title Разделение ценностей клуба
+                                    .devider.small
+                                    .desc Общие жизненные приоритеты необходимы для обеспечения доверия, глубокой интеграции, взаимно обогащающего общения и сотрудничества участников между собой.
+                        .col-xl-6.col-lg-12.col-md-12.col-sm-12.col-12
+                            .criteria-item
+                                .icon-block
+                                    img(src="assets/icons/balance.svg")
+                                .info-block
+                                    .title Соответствие стратегии диверсификации
+                                    .devider.small
+                                    .desc На пересечении сфер знаний рождаются инновации. Мы стремимся привлекать участников из разных сфер и бэкграундов с максимально разнообразным опытом.
+
+
+
+        footer
+            .container
+                .row
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-2.hide-on-mobile
+                        .devider.white
+
+                    .col.col-lg-4.text-center.col-md-8.col-sm-8.col-12
+                        img.logo(src="assets/images/logo-full.svg")
+
+                    .col.col-sm-12.col-12.show-only-mobile.text-center
+                        .devider.white.no-margin
+
+                    .col.col-lg-3.offset-lg-1.col-md-2.col-sm-2.hide-on-mobile
+                        .devider.white
+                .row
+                    .col.col-lg-3.offset-lg-1.col-md-6
+                        ul.menu
+                            li
+                                a(href="index.html") Главная
+                            li
+                                a(href="#") Форматы
+                            li
+                                a(href="#") Блог
+                            li
+                                a(href="#") Мероприятия
+                            li
+                                a(href="membership.html") Членство
+
+                    .col.col-sm-12.col-12.show-only-mobile.text-center
+                        .devider.white.no-margin
+
+                    //.col.col-md-3.col-3.offset-lg-1.hide-on-tablet
+
+                    .col.col-lg-4.text-center.col-md-4.order-lg-1.order-md-3.order-sm-3.order-3
+                        .social-buttons
+                            button.btn.btn-primary.white.with-icons(type='button')
+                                img(src="assets/icons/fb.svg")
+                                span Facebook
+                            button.btn.btn-primary.white.with-icons(type='button')
+                                img(src="assets/icons/linkedin.svg")
+                                span Linkedin
+
+                    .col.col-lg-3.offset-lg-1.col-md-6.order-md-2.order-sm-2.order-2
+                        .contact-list-title Контакты
+                        ul.contact-list
+                            li
+                                span +38 044 22 888 13
+                            li
+                                a(href="mailto:info@ceoclub.com.ua") info@ceoclub.com.ua
+                            li
+                                span Клубный дом CEO Club Ukraine:
+                                a(href="#") Украина, Киев, Бутышев переулок 23
+                .copyright &copy; CEO Club Ukraine
+
+        link(rel="stylesheet" href="css/bootstrap.min.css")
+        link(rel="stylesheet" href="css/libs.min.css")
+        link(rel="stylesheet" href="css/ekko-lightbox.css")
+        link(rel="stylesheet" href="css/slick.css")
+        link(rel="stylesheet" href="css/slick-theme.css")
+        link(rel="stylesheet" href="css/animate.css")
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
+        script(src="js/bootstrap.min.js")
+        script(src="js/ekko-lightbox.min.js")
+        script(src="js/slick.min.js")
+        script(src="js/ScrollMagic.min.js")
+        script(src="js/scrollMagicController.js")
+        script(src="js/libs.js")

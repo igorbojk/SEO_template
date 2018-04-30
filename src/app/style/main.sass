@@ -1022,7 +1022,6 @@ footer
 
 .club-life-page
     background: $background
-    padding-top: 88px
     .bordered-block,
     .banner
         img
@@ -1221,3 +1220,63 @@ footer
         .advice-slider-container
             .slider-button
                 top: -180px
+
+.membership-page
+    background: $background
+    .bordered-block,
+    .banner
+        img
+            width: 100%
+            height: auto
+    .club-life-info
+        margin-top: -175px
+        background: $white
+        @media (max-width: 992px)
+            margin-top: -56px
+            .content
+                padding: 24px 40px
+                h3
+                    font-size: 32px
+        @media (max-width: 576px)
+            .content
+                h3
+                    font-size: 24px
+        ul
+            margin-bottom: 24px
+    .criteria
+        padding: 80px 0
+        .section-title
+            margin-bottom: 80px
+        .criteria-item
+            display: flex
+            background: $white
+            margin-bottom: 40px
+            min-height: 295px
+            .icon-block
+                width: 182px
+                border-right: solid 3px $background
+                display: flex
+                align-items: center
+                justify-content: center
+            .info-block
+                padding: 32px 40px 0 29px
+                flex: 1 1 auto
+                width: calc(100% - 182px)
+                .title
+                    font-size: 24px
+                    font-weight: 900
+                    font-style: normal
+                    font-stretch: normal
+                    line-height: 1.33
+                    letter-spacing: normal
+                    text-align: left
+                    color: $text
+                    font-family: 'Playfair Display', serif
+                .desc
+                    font-size: 16px
+                    font-weight: normal
+                    font-style: normal
+                    font-stretch: normal
+                    line-height: 1.5
+                    letter-spacing: 0.7px
+                    color: $text

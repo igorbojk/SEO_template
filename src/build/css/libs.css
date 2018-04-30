@@ -5,6 +5,9 @@ body {
 .bordered-block img {
   width: 100%; }
 
+main {
+  padding-top: 88px; }
+
 @media (min-width: 568px) and (max-width: 992px) {
   .container {
     max-width: 100%;
@@ -729,6 +732,9 @@ body {
 
 .bordered-block img {
   width: 100%; }
+
+main {
+  padding-top: 88px; }
 
 @media (min-width: 568px) and (max-width: 992px) {
   .container {
@@ -2432,8 +2438,7 @@ footer {
     padding-top: 56px; }
 
 .club-life-page {
-  background: #FAFAFA;
-  padding-top: 88px; }
+  background: #FAFAFA; }
   .club-life-page .bordered-block img,
   .club-life-page .banner img {
     width: 100%;
@@ -2682,3 +2687,84 @@ footer {
       margin-bottom: 48px; }
     .club-life-page .clubs-guest .advice-slider-container .slider-button {
       top: -180px; }
+
+.membership-page {
+  background: #FAFAFA; }
+  .membership-page .bordered-block img,
+  .membership-page .banner img {
+    width: 100%;
+    height: auto; }
+  .membership-page .club-life-info {
+    margin-top: -175px;
+    background: #ffffff; }
+    @media (max-width: 992px) {
+      .membership-page .club-life-info {
+        margin-top: -56px; }
+        .membership-page .club-life-info .content {
+          padding: 24px 40px; }
+          .membership-page .club-life-info .content h3 {
+            font-size: 32px; } }
+    @media (max-width: 576px) {
+      .membership-page .club-life-info .content h3 {
+        font-size: 24px; } }
+    .membership-page .club-life-info ul {
+      margin-bottom: 24px; }
+  .membership-page .criteria {
+    padding: 80px 0; }
+    .membership-page .criteria .section-title {
+      margin-bottom: 80px; }
+    .membership-page .criteria .criteria-item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      background: #ffffff;
+      margin-bottom: 40px;
+      min-height: 295px; }
+      .membership-page .criteria .criteria-item .icon-block {
+        width: 182px;
+        border-right: solid 3px #FAFAFA;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+      .membership-page .criteria .criteria-item .info-block {
+        padding: 32px 40px 0 29px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+           -moz-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        width: -webkit-calc(100% - 182px);
+        width: -moz-calc(100% - 182px);
+        width: calc(100% - 182px); }
+        .membership-page .criteria .criteria-item .info-block .title {
+          font-size: 24px;
+          font-weight: 900;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.33;
+          letter-spacing: normal;
+          text-align: left;
+          color: #26282b;
+          font-family: 'Playfair Display', serif; }
+        .membership-page .criteria .criteria-item .info-block .desc {
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.7px;
+          color: #26282b; }
