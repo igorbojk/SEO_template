@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba5da55-bec8-4bdd-b104-6529e539451b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/template/membership.jade" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/main.js" afterPath="$PROJECT_DIR$/src/app/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/src/app/style/main-styles.sass" afterPath="$PROJECT_DIR$/src/app/style/main-styles.sass" />
       <change beforePath="$PROJECT_DIR$/src/app/style/main.sass" afterPath="$PROJECT_DIR$/src/app/style/main.sass" />
-      <change beforePath="$PROJECT_DIR$/src/app/template/club-life.jade" afterPath="$PROJECT_DIR$/src/app/template/club-life.jade" />
-      <change beforePath="$PROJECT_DIR$/src/app/template/index.jade" afterPath="$PROJECT_DIR$/src/app/template/index.jade" />
-      <change beforePath="$PROJECT_DIR$/src/build/club-life.html" afterPath="$PROJECT_DIR$/src/build/club-life.html" />
+      <change beforePath="$PROJECT_DIR$/src/app/template/membership.jade" afterPath="$PROJECT_DIR$/src/app/template/membership.jade" />
       <change beforePath="$PROJECT_DIR$/src/build/css/libs.css" afterPath="$PROJECT_DIR$/src/build/css/libs.css" />
       <change beforePath="$PROJECT_DIR$/src/build/css/libs.min.css" afterPath="$PROJECT_DIR$/src/build/css/libs.min.css" />
-      <change beforePath="$PROJECT_DIR$/src/build/index.html" afterPath="$PROJECT_DIR$/src/build/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/build/js/libs.js" afterPath="$PROJECT_DIR$/src/build/js/libs.js" />
+      <change beforePath="$PROJECT_DIR$/src/build/membership.html" afterPath="$PROJECT_DIR$/src/build/membership.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="1246" column="23" lean-forward="true" selection-start-line="1246" selection-start-column="23" selection-end-line="1246" selection-end-column="23" />
+            <state relative-caret-position="336">
+              <caret line="1366" column="0" lean-forward="false" selection-start-line="1366" selection-start-column="0" selection-end-line="1366" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,18 +34,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="495">
               <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="membership.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="membership.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/template/membership.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="105" column="69" lean-forward="true" selection-start-line="105" selection-start-column="69" selection-end-line="105" selection-end-column="69" />
+            <state relative-caret-position="103">
+              <caret line="144" column="67" lean-forward="false" selection-start-line="144" selection-start-column="67" selection-end-line="144" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -80,8 +74,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>no-s</find>
-      <find>.col.col-lg-6.offset-lg-6</find>
       <find>.btn-secondary</find>
       <find>.btn</find>
       <find>playf</find>
@@ -110,6 +102,8 @@
       <find>.recent-events</find>
       <find>repu</find>
       <find>88px</find>
+      <find>Playfair</find>
+      <find>.assign</find>
     </findStrings>
     <replaceStrings>
       <replace>$text</replace>
@@ -148,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/app/template/index.jade" />
         <option value="$PROJECT_DIR$/src/app/template/club-life.jade" />
         <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
-        <option value="$PROJECT_DIR$/src/app/template/membership.jade" />
         <option value="$PROJECT_DIR$/src/app/style/main.sass" />
+        <option value="$PROJECT_DIR$/src/app/template/membership.jade" />
       </list>
     </option>
   </component>
@@ -170,9 +164,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
     <option name="y" value="24" />
-    <option name="width" value="1916" />
-    <option name="height" value="1054" />
+    <option name="width" value="1926" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,14 +258,13 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Pug/Jade" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SPA_YBC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
@@ -328,29 +323,29 @@
       <workItem from="1523525314146" duration="947000" />
       <workItem from="1524236734164" duration="403000" />
       <workItem from="1524812716010" duration="21430000" />
-      <workItem from="1525084249521" duration="6601000" />
+      <workItem from="1525084249521" duration="6674000" />
+      <workItem from="1525243721462" duration="7127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119787000" />
+    <option name="totallyTimeSpent" value="126987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="24" width="1926" height="1058" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3304721" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3304721" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -411,7 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3375">
           <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="60" column="61" lean-forward="false" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/../livak/application.css" />
     <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="495">
           <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
@@ -700,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,22 +698,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="1366" column="0" lean-forward="false" selection-start-line="1366" selection-start-column="0" selection-end-line="1366" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/template/membership.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="105" column="69" lean-forward="true" selection-start-line="105" selection-start-column="69" selection-end-line="105" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1246" column="23" lean-forward="true" selection-start-line="1246" selection-start-column="23" selection-end-line="1246" selection-end-column="23" />
+        <state relative-caret-position="103">
+          <caret line="144" column="67" lean-forward="false" selection-start-line="144" selection-start-column="67" selection-end-line="144" selection-end-column="67" />
           <folding />
         </state>
       </provider>

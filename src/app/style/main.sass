@@ -4,6 +4,7 @@
 
 .no-scroll
     overflow: hidden
+
 .preloader
     position: fixed
     top: 0
@@ -75,6 +76,7 @@
         margin-bottom: 220px
         &:before
             height: 100%
+
 .video
     position: relative
     &:before
@@ -359,7 +361,6 @@
                     @media (max-width: 992px)
                         font-size: 16px
 
-
 .principles
     h3
         margin-top: 80px
@@ -420,6 +421,7 @@
         padding-bottom: 0
         button
             display: none
+
 .clubs-life
     padding-top: 80px
     padding-bottom: 102px
@@ -503,15 +505,15 @@
         .carousel-control-prev
             left: 0
             right: 50%
-            cursor:  url(../assets/icons/black-rotate.svg) 4 12, auto
+            cursor: url(../assets/icons/black-rotate.svg) 4 12, auto
             &:hover
-                cursor:  url(../assets/icons/black-rotate.svg) 4 12, auto
+                cursor: url(../assets/icons/black-rotate.svg) 4 12, auto
         .carousel-control-next
             right: 0
             left: 50%
-            cursor:  url(../assets/icons/black.svg) 4 12, auto
+            cursor: url(../assets/icons/black.svg) 4 12, auto
             &:hover
-                cursor:  url(../assets/icons/black.svg) 4 12, auto
+                cursor: url(../assets/icons/black.svg) 4 12, auto
         @media (max-width: 1280px)
             .carousel-control-prev,
             .carousel-control-next
@@ -579,7 +581,6 @@
                         width: 24px
                         background: #c0a266
 
-
 .upcoming-events
     background: #eff0f0
     padding-top: 80px
@@ -629,6 +630,7 @@
             margin-bottom: 40px
         .action-btn
             text-align: center
+
 .club-advice
     padding-top: 80px
     padding-bottom: 80px
@@ -751,6 +753,7 @@
                 letter-spacing: 0.7px
                 text-align: left
                 color: $text
+
 .blog
     padding-top: 80px
     padding-bottom: 58px
@@ -897,7 +900,7 @@
         flex-wrap: wrap
         .flex-33
             flex: 1 1 33%
-            max-width: calc( 33.33333% - 32px)
+            max-width: calc(33.33333% - 32px)
             margin: 16px
             box-sizing: border-box
             display: flex
@@ -916,7 +919,7 @@
                     max-width: 100%
             @media (max-width: 576px)
                 flex: 1 1 50%
-                max-width: calc( 50% - 32px)
+                max-width: calc(50% - 32px)
 
 .projects
     padding: 50px 0 108px
@@ -934,6 +937,7 @@
             filter: grayscale(100%)
             &:hover
                 filter: none
+
 footer
     background: #26282b
     padding-top: 80px
@@ -1280,3 +1284,118 @@ footer
                     line-height: 1.5
                     letter-spacing: 0.7px
                     color: $text
+    .our-values
+        background: $white
+        padding: 80px 0
+        .section-title
+            margin-bottom: 80px
+        .col-12
+            margin-bottom: 42px
+        .value-item
+            display: flex
+            background: $background
+            border-bottom: solid 2px $secondary
+            min-height: 124px
+            align-items: center
+            padding: 24px
+            height: 100%
+            & > div
+                flex: 1 1 50%
+                width: 100%
+                max-width: 50%
+                display: flex
+                justify-content: center
+            .title
+                font-family: 'Playfair Display', serif
+                font-size: 24px
+                font-weight: 900
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.33
+                letter-spacing: normal
+                color: $text
+                position: relative
+                &:before
+                    position: absolute
+                    content: ''
+                    background: $secondary
+                    width: 40px
+                    height: 2px
+                    top: -2px
+                    left: 50%
+                    margin-left: -20px
+                &:after
+                    position: absolute
+                    content: ''
+                    background: $secondary
+                    width: 40px
+                    height: 2px
+                    bottom: -8px
+                    left: 50%
+                    margin-left: -20px
+            .description
+                font-size: 16px
+                font-weight: normal
+                font-style: normal
+                font-stretch: normal
+                line-height: 1.5
+                letter-spacing: 0.7px
+                text-align: left
+    .assign
+        padding: 80px 0
+        .steps
+            padding: 48px
+            background: $white
+            .step
+                display: flex
+                &:last-child
+                    .counter
+                        &:after
+                            display: none
+                .counter
+                    font-family: 'Playfair Display', serif
+                    font-size: 168px
+                    font-weight: 900
+                    font-style: normal
+                    font-stretch: normal
+                    line-height: 1
+                    letter-spacing: normal
+                    text-align: center
+                    color: $secondary
+                    width: 20%
+                    position: relative
+                    height: 350px
+                    &:after
+                        content: ''
+                        position: absolute
+                        width: 2px
+                        background: $text
+                        left: 50%
+                        margin-left: -1px
+                        top: 229px
+                        bottom: 0
+                .devider
+                    margin: 116px 48px 0 24px
+                    width: 20%
+                .info
+                    margin-top: 100px
+                    width: 60%
+                    .title
+                        font-family: 'Playfair Display', serif
+                        font-size: 24px
+                        font-weight: 900
+                        font-style: normal
+                        font-stretch: normal
+                        line-height: 1.33
+                        letter-spacing: normal
+                        text-align: left
+                        color: $text
+                        margin-bottom: 16px
+                    .desc
+                        font-size: 16px
+                        font-weight: normal
+                        font-style: normal
+                        font-stretch: normal
+                        line-height: 1.5
+                        letter-spacing: 0.7px
+                        text-align: left
