@@ -2705,8 +2705,10 @@ footer {
           .membership-page .club-life-info .content h3 {
             font-size: 32px; } }
     @media (max-width: 576px) {
-      .membership-page .club-life-info .content h3 {
-        font-size: 24px; } }
+      .membership-page .club-life-info {
+        margin-top: 0; }
+        .membership-page .club-life-info .content h3 {
+          font-size: 24px; } }
     .membership-page .club-life-info ul {
       margin-bottom: 24px; }
   .membership-page .criteria {
@@ -2722,6 +2724,11 @@ footer {
       background: #ffffff;
       margin-bottom: 40px;
       min-height: 295px; }
+      @media (max-width: 576px) {
+        .membership-page .criteria .criteria-item {
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; } }
       .membership-page .criteria .criteria-item .icon-block {
         width: 182px;
         border-right: solid 3px #FAFAFA;
@@ -2740,6 +2747,14 @@ footer {
            -moz-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
+        @media (max-width: 576px) {
+          .membership-page .criteria .criteria-item .icon-block {
+            border-right: none;
+            border-bottom: solid 3px #FAFAFA;
+            width: 100%;
+            padding: 32px; }
+            .membership-page .criteria .criteria-item .icon-block img {
+              max-width: 80px; } }
       .membership-page .criteria .criteria-item .info-block {
         padding: 32px 40px 0 29px;
         -webkit-box-flex: 1;
@@ -2760,6 +2775,9 @@ footer {
           text-align: left;
           color: #26282b;
           font-family: 'Playfair Display', serif; }
+          @media (max-width: 576px) {
+            .membership-page .criteria .criteria-item .info-block .title {
+              font-size: 18px; } }
         .membership-page .criteria .criteria-item .info-block .desc {
           font-size: 16px;
           font-weight: normal;
@@ -2768,11 +2786,20 @@ footer {
           line-height: 1.5;
           letter-spacing: 0.7px;
           color: #26282b; }
+          @media (max-width: 576px) {
+            .membership-page .criteria .criteria-item .info-block .desc {
+              padding-bottom: 48px; } }
   .membership-page .our-values {
     background: #ffffff;
     padding: 80px 0; }
+    @media (max-width: 576px) {
+      .membership-page .our-values {
+        padding: 40px 0; } }
     .membership-page .our-values .section-title {
       margin-bottom: 80px; }
+      @media (max-width: 576px) {
+        .membership-page .our-values .section-title {
+          margin-bottom: 40px; } }
     .membership-page .our-values .col-12 {
       margin-bottom: 42px; }
     .membership-page .our-values .value-item {
@@ -2791,6 +2818,12 @@ footer {
               align-items: center;
       padding: 24px;
       height: 100%; }
+      @media (max-width: 576px) {
+        .membership-page .our-values .value-item {
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+          padding: 0; } }
       .membership-page .our-values .value-item > div {
         -webkit-box-flex: 1;
         -webkit-flex: 1 1 50%;
@@ -2809,6 +2842,14 @@ footer {
            -moz-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
+        @media (max-width: 576px) {
+          .membership-page .our-values .value-item > div {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 100%;
+               -moz-box-flex: 1;
+                -ms-flex: 1 1 100%;
+                    flex: 1 1 100%;
+            max-width: 100%; } }
       .membership-page .our-values .value-item .title {
         font-family: 'Playfair Display', serif;
         font-size: 24px;
@@ -2819,7 +2860,23 @@ footer {
         letter-spacing: normal;
         color: #26282b;
         position: relative; }
-        .membership-page .our-values .value-item .title:before {
+        @media (max-width: 576px) {
+          .membership-page .our-values .value-item .title {
+            width: 100%;
+            height: 150px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; } }
+        .membership-page .our-values .value-item .title span {
+          position: relative; }
+        .membership-page .our-values .value-item .title span:before {
           position: absolute;
           content: '';
           background: #c0a266;
@@ -2828,7 +2885,7 @@ footer {
           top: -2px;
           left: 50%;
           margin-left: -20px; }
-        .membership-page .our-values .value-item .title:after {
+        .membership-page .our-values .value-item .title span:after {
           position: absolute;
           content: '';
           background: #c0a266;
@@ -2845,17 +2902,41 @@ footer {
         line-height: 1.5;
         letter-spacing: 0.7px;
         text-align: left; }
+        @media (max-width: 576px) {
+          .membership-page .our-values .value-item .description {
+            border-top: solid 1px lightgray;
+            min-height: 150px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding: 24px; } }
   .membership-page .assign {
     padding: 80px 0; }
+    @media (max-width: 576px) {
+      .membership-page .assign {
+        padding: 40px 0; }
+        .membership-page .assign h3 {
+          padding-bottom: 40px; } }
     .membership-page .assign .steps {
       padding: 48px;
       background: #ffffff; }
+      @media (max-width: 576px) {
+        .membership-page .assign .steps {
+          padding: 0 16px; } }
       .membership-page .assign .steps .step {
         display: -webkit-box;
         display: -webkit-flex;
         display: -moz-box;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        position: relative; }
         .membership-page .assign .steps .step:last-child .counter:after {
           display: none; }
         .membership-page .assign .steps .step .counter {
@@ -2871,6 +2952,11 @@ footer {
           width: 20%;
           position: relative;
           height: 350px; }
+          @media (max-width: 576px) {
+            .membership-page .assign .steps .step .counter {
+              font-size: 88px;
+              height: 250px;
+              position: static; } }
           .membership-page .assign .steps .step .counter:after {
             content: '';
             position: absolute;
@@ -2880,12 +2966,28 @@ footer {
             margin-left: -1px;
             top: 229px;
             bottom: 0; }
+            @media (max-width: 576px) {
+              .membership-page .assign .steps .step .counter:after {
+                left: 24px;
+                top: 124px;
+                bottom: 50%; } }
         .membership-page .assign .steps .step .devider {
           margin: 116px 48px 0 24px;
           width: 20%; }
+          @media (max-width: 992px) {
+            .membership-page .assign .steps .step .devider {
+              width: 15%; } }
+          @media (max-width: 576px) {
+            .membership-page .assign .steps .step .devider {
+              display: none; } }
         .membership-page .assign .steps .step .info {
           margin-top: 100px;
           width: 60%; }
+          @media (max-width: 576px) {
+            .membership-page .assign .steps .step .info {
+              margin-top: 38px;
+              margin-left: 16px;
+              width: 90%; } }
           .membership-page .assign .steps .step .info .title {
             font-family: 'Playfair Display', serif;
             font-size: 24px;
@@ -2897,6 +2999,9 @@ footer {
             text-align: left;
             color: #26282b;
             margin-bottom: 16px; }
+            @media (max-width: 576px) {
+              .membership-page .assign .steps .step .info .title {
+                font-size: 18px; } }
           .membership-page .assign .steps .step .info .desc {
             font-size: 16px;
             font-weight: normal;
@@ -2905,3 +3010,7 @@ footer {
             line-height: 1.5;
             letter-spacing: 0.7px;
             text-align: left; }
+      @media (max-width: 576px) {
+        .membership-page .assign .steps .text-center {
+          padding: 0;
+          margin-top: 32px; } }
