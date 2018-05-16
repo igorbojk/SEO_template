@@ -200,3 +200,44 @@ new ScrollMagic.Scene({
     .setClassToggle('.projects .row', 'active')
     // .addIndicators()
     .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.clubs-formats h3',
+    triggerHook: 0.8
+})
+    .setClassToggle('.clubs-formats h3', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.clubs-formats .format-row',
+    triggerHook: 0.8
+})
+    .setClassToggle('.clubs-formats .format-row', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.action-info .action-info-row',
+    triggerHook: 0.8
+})
+    .setClassToggle('.action-info .action-info-row', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.recent-events .container',
+    triggerHook: 0.8
+})
+    .setClassToggle('.recent-events .container', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.club-advice h5',
+    triggerHook: 0.8
+})
+    .setClassToggle('.club-advice h5', 'active')
+    // .addIndicators()
+    .addTo(controller);
+

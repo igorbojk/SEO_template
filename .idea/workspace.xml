@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba5da55-bec8-4bdd-b104-6529e539451b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/app/template/club-life.jade" afterPath="$PROJECT_DIR$/src/app/template/club-life.jade" />
+      <change beforePath="$PROJECT_DIR$/src/app/template/membership.jade" afterPath="$PROJECT_DIR$/src/app/template/membership.jade" />
+      <change beforePath="$PROJECT_DIR$/src/build/club-life.html" afterPath="$PROJECT_DIR$/src/build/club-life.html" />
+      <change beforePath="$PROJECT_DIR$/src/build/js/scrollMagicController.js" afterPath="$PROJECT_DIR$/src/build/js/scrollMagicController.js" />
+      <change beforePath="$PROJECT_DIR$/src/build/membership.html" afterPath="$PROJECT_DIR$/src/build/membership.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,51 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/style/main.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="1289" column="39" lean-forward="false" selection-start-line="1289" selection-start-column="39" selection-end-line="1289" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrollMagicController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/build/js/scrollMagicController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="membership.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template/membership.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="185" column="46" lean-forward="true" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="58" />
+            <state relative-caret-position="465">
+              <caret line="257" column="8" lean-forward="false" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrollMagicController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/build/js/scrollMagicController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="231" column="58" lean-forward="true" selection-start-line="231" selection-start-column="58" selection-end-line="231" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -69,18 +44,8 @@
       <file leaf-file-name="club-life.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template/club-life.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3690">
-              <caret line="246" column="88" lean-forward="false" selection-start-line="245" selection-start-column="39" selection-end-line="246" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-styles.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="240">
+              <caret line="304" column="40" lean-forward="false" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -99,8 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>life</find>
-      <find>.carousel-control-next</find>
       <find>marg</find>
       <find>.action-info</find>
       <find>Совет клуба</find>
@@ -126,9 +89,11 @@
       <find>.club-life-info</find>
       <find>.value-item</find>
       <find>assig</find>
-      <find>criteria</find>
       <find>.membership-page</find>
       <find>.icon-block</find>
+      <find>projects</find>
+      <find>criteria</find>
+      <find>clubs-formats</find>
     </findStrings>
     <replaceStrings>
       <replace>$text</replace>
@@ -151,7 +116,6 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/build/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/build/index.html" />
-        <option value="$PROJECT_DIR$/src/build/js/scrollMagicController.js" />
         <option value="$PROJECT_DIR$/src/build/js/libs.js" />
         <option value="$PROJECT_DIR$/src/app/style/colors.sass" />
         <option value="$PROJECT_DIR$/../livak/application1.css" />
@@ -163,14 +127,15 @@
         <option value="$PROJECT_DIR$/../livak/application.css" />
         <option value="$PROJECT_DIR$/src/app/js/main.js" />
         <option value="$PROJECT_DIR$/src/app/template/membership.pug" />
-        <option value="$PROJECT_DIR$/src/app/template/index.jade" />
-        <option value="$PROJECT_DIR$/src/app/template/club-life.jade" />
         <option value="$PROJECT_DIR$/src/app/style/main-styles.sass" />
         <option value="$PROJECT_DIR$/src/build/application1.php" />
         <option value="/var/www/html/test/index.html" />
-        <option value="$PROJECT_DIR$/src/app/template/membership.jade" />
         <option value="$PROJECT_DIR$/src/app/style/main.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/app/template/membership.jade" />
+        <option value="$PROJECT_DIR$/src/app/template/index.jade" />
+        <option value="$PROJECT_DIR$/src/app/template/club-life.jade" />
+        <option value="$PROJECT_DIR$/src/build/js/scrollMagicController.js" />
       </list>
     </option>
   </component>
@@ -340,12 +305,12 @@
       <workItem from="1525264587965" duration="1336000" />
       <workItem from="1525931015273" duration="1613000" />
       <workItem from="1525953099212" duration="463000" />
-      <workItem from="1526454013512" duration="2405000" />
+      <workItem from="1526454013512" duration="4173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134033000" />
+    <option name="totallyTimeSpent" value="135801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-136" y="24" width="1926" height="1058" extended-state="6" />
@@ -614,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="476" column="172" lean-forward="false" selection-start-line="476" selection-start-column="172" selection-end-line="476" selection-end-column="172" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -656,13 +614,6 @@
     <entry file="file://$PROJECT_DIR$/../livak/pdopage.css" />
     <entry file="file://$PROJECT_DIR$/../livak/index.css" />
     <entry file="file://$PROJECT_DIR$/../livak/application.css" />
-    <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/build/application1.php" />
     <entry file="file:///var/www/html/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -671,42 +622,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/build/js/scrollMagicController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="34" lean-forward="false" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/template/club-life.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3690">
-          <caret line="246" column="88" lean-forward="false" selection-start-line="245" selection-start-column="39" selection-end-line="246" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/template/membership.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="185" column="46" lean-forward="true" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/style/main-styles.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-43">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -719,10 +654,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="494" column="6" lean-forward="false" selection-start-line="494" selection-start-column="6" selection-end-line="494" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/template/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="495" column="4" lean-forward="true" selection-start-line="495" selection-start-column="4" selection-end-line="495" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/template/membership.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="257" column="8" lean-forward="false" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/template/club-life.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="304" column="40" lean-forward="false" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/build/js/scrollMagicController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="231" column="58" lean-forward="true" selection-start-line="231" selection-start-column="58" selection-end-line="231" selection-end-column="58" />
           <folding />
         </state>
       </provider>
