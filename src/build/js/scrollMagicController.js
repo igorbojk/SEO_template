@@ -241,3 +241,50 @@ new ScrollMagic.Scene({
     // .addIndicators()
     .addTo(controller);
 
+new ScrollMagic.Scene({
+    triggerElement: '.criteria .section-title',
+    triggerHook: 0.8
+})
+    .setClassToggle('.criteria .section-title', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.criteria .row.opacity-animation',
+    triggerHook: 0.8
+})
+    .setClassToggle('.criteria .row.opacity-animation', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.our-values .section-title',
+    triggerHook: 0.8
+})
+    .setClassToggle('.our-values .section-title', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.our-values .row.opacity-animation',
+    triggerHook: 0.8
+})
+    .setClassToggle('.our-values .row.opacity-animation', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.assign .section-title',
+    triggerHook: 0.8
+})
+    .setClassToggle('.assign .section-title', 'active')
+    // .addIndicators()
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: '.assign .steps',
+    triggerHook: 0.8
+})
+    .setClassToggle('.assign .steps', 'active')
+    // .addIndicators()
+    .addTo(controller);
